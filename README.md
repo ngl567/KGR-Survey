@@ -159,3 +159,23 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 | MDNcaching | MDNcaching: A strategy to generate quality negatives for knowledge graph embedding | IEA/AIE | 2022 | [Link](https://doi.org/10.1007/978-3-031-08530-7_74) |
 | Op-Trans | Op-Trans: An optimization framework for negative sampling and triplet-mapping properties in knowledge graph embedding | Applied Sciences | 2023 | [Link](https://doi.org/10.3390/app13052817) |
 | NS-KGE | Efficient non-sampling knowledge graph embedding | The Web Conference | 2021 | [Link](https://doi.org/10.1145/3442381.3449859) |
+
+<div align="center">
+  <h3><strong>Open-Source Library for KGE</strong></h3>
+</div>
+
+| Library | Implementation | Key Features | GitHub Repository |
+|:---:|:---:|---|---|
+| OpenKE | Pytorch, TensorFlow, C++ | Efficiently implements fundamental operations such as data loading, negative sampling, and performance evaluation using C++ for high performance. | [https://github.com/thunlp/OpenKE](https://github.com/thunlp/OpenKE) |
+| AmpliGraph | TensorFlow | Provides a Keras-style API with improved efficiency over OpenKE. | [https://github.com/Accenture/AmpliGraph](https://github.com/Accenture/AmpliGraph) |
+| torchKGE | Pytorch | Achieves twice the efficiency of OpenKE and five times that of AmpliGraph. | [https://github.com/torchkge-team/torchkge](https://github.com/torchkge-team/torchkge) |
+| LibKGE | Pytorch | Enables direct configuration of hyperparameters and model settings via configuration files. | [https://github.com/uma-pi1/kge](https://github.com/uma-pi1/kge) |
+| KB2E | C++ | One of the earliest KGE libraries and the predecessor of OpenKE. | [https://github.com/thunlp/KB2E](https://github.com/thunlp/KB2E) |
+| scikit-kge | Python | Implements multiple classical KGE models and supports a novel negative sampling strategy. | [https://github.com/mnick/scikit-kge](https://github.com/mnick/scikit-kge) |
+| NeuralKG | Pytorch | Integrates KGE techniques with graph neural networks (GNNs) and rule-based reasoning models. | [https://github.com/zjukg/NeuralKG](https://github.com/zjukg/NeuralKG) |
+| PyKEEN | Pytorch | Offers 37 datasets, 40 KGE models, 15 loss functions, 6 regularization mechanisms, and 3 negative sampling strategies. | [https://github.com/pykeen/pykeen](https://github.com/pykeen/pykeen) |
+| Pykg2vec | Pytorch, TensorFlow | Supports automated hyperparameter tuning, exports KG embeddings in TSV or RDF formats, and provides visualization for performance evaluation. | [https://github.com/Sujit-O/pykg2vec](https://github.com/Sujit-O/pykg2vec) |
+| μKG | Pytorch, TensorFlow | Supports multi-process execution and GPU-accelerated computation, making it well-suited for large-scale KGs. | [https://github.com/nju-websoft/muKG](https://github.com/nju-websoft/muKG) |
+| DGL-KE | Pytorch, MXNet | Optimized for execution on CPU and GPU clusters, offering high scalability for large-scale KGs. | [https://github.com/awslabs/dgl-ke](https://github.com/awslabs/dgl-ke) |
+| GraphVite | Pytorch | Provides efficient large-scale embedding learning, supports visualization of graph data, and enables multi-processing and GPU parallelization. | [https://github.com/DeepGraphLearning/graphvite](https://github.com/DeepGraphLearning/graphvite) |
+| PBG | Pytorch | Designed for distributed training, capable of handling KGs with billions of entities and trillions of edges. | [https://github.com/facebookresearch/PyTorch-BigGraph](https://github.com/facebookresearch/PyTorch-BigGraph) |
