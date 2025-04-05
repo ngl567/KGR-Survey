@@ -201,7 +201,7 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 | Evoda | Rule learning over knowledge graphs with genetic logic programming | ICDE | 2022 | [link](https://doi.org/10.1109/ICDE53745.2022.00318) |
 | NeuralLP | Differentiable learning of logical rules for knowledge base reasoning | NeurIPS | 2017 | [link](https://proceedings.neurips.cc/paper/2017/file/0e55666a4ad822e0e34299df3591d979-Paper.pdf) |
 | DRUM | DRUM: End-to-end differentiable rule mining on knowledge graphs | NeurIPS | 2019 | [link](https://proceedings.neurips.cc/paper_files/paper/2019/file/0c72cb7ee1512f800abe27823a792d03-Paper.pdf) |
-| RLvLR | An embedding-based approach to rule learning in knowledge graphs | IEEE Transactions on Knowledge and Data Engineering | 2019 | [link](https://doi.org/10.1109/TKDE.2019.2941685) |
+| RLvLR | An embedding-based approach to rule learning in knowledge graphs | IEEE TKDE | 2019 | [link](https://doi.org/10.1109/TKDE.2019.2941685) |
 | RNNLogic | RNNLogic: learning logic rules for reasoning on knowledge graphs | ICLR | 2021 | [link](https://arxiv.org/pdf/2010.04029) |
 | RARL | Relatedness and TBox-driven rule learning in large knowledge bases | AAAI | 2020 | [link](https://ojs.aaai.org/index.php/AAAI/article/view/5690/) |
 | Ruleformer | Ruleformer: context-aware rule mining over knowledge graph | COLING | 2022 | [link](https://aclanthology.org/2022.coling-1.225/) |
@@ -215,8 +215,60 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 |:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
 | KALE | Jointly embedding knowledge graphs and logical rules | EMNLP | 2016 | [link](https://doi.org/10.18653/v1/D16-1019) |
 | RUGE | Knowledge graph embedding with iterative guidance from soft rules | AAAI | 2018 | [link](https://ojs.aaai.org/index.php/AAAI/article/view/11918) |
-| RulE | RulE: Knowledge graph reasoning with rule embedding | Findings-ACL | 2024 | [link](https://doi.org/10.18653/v1/2024.findings-acl.256) |
+| RulE | RulE: Knowledge graph reasoning with rule embedding | Findings of ACL | 2024 | [link](https://doi.org/10.18653/v1/2024.findings-acl.256) |
 | RPJE | Rule-guided compositional representation learning on knowledge graphs | AAAI | 2020 | [link](https://doi.org/10.1609/aaai.v34i03.5687) |
 | IterE | Iteratively learning embeddings and rules for knowledge graph reasoning | WWW | 2019 | [link](https://doi.org/10.1145/3308558.3313612) |
 | UniKER | UniKER: A unified framework for combining embedding and definite Horn rule reasoning for knowledge graph inference | EMNLP | 2021 | [link](https://doi.org/10.18653/v1/2021.emnlp-main.769) |
 | EngineKG | Perform like an engine: A closed-loop neural-symbolic learning framework for knowledge graph inference | COLING | 2022 | [link](https://aclanthology.org/2022.coling-1.119/) |
+
+## Static Multi-Step KGR
+
+### Random Walk-based Models
+
+<div align="center">
+  <h3><strong>Random Walk-based Models</strong></h3>
+</div>
+
+| Model  | Title | Conference/Journal | Year | Paper |
+|:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
+| PRA | Relational retrieval using a combination of path-constrained random walks | *Machine Learning* | 2010 | [link](https://doi.org/10.1007/s10994-010-5205-8) |
+| Lao et al. 1 | Random walk inference and learning in a large scale knowledge base | EMNLP | 2011 | [link](https://aclanthology.org/D11-1049/) |
+| Lao et al. 2 | Reading the web with learned syntactic-semantic inference rules | EMNLP | 2012 | [link](https://aclanthology.org/D12-1093/) |
+| Gardner et al. | Improving learning and inference in a large knowledge-base using latent syntactic cues | EMNLP | 2013 | [link](https://doi.org/10.18653/v1/D15-1173) |
+| CPRA | Knowledge base completion via coupled path ranking | ACL | 2016 | [link](https://doi.org/10.18653/v1/P16-1124) |
+| C-PR | Context-aware path ranking for knowledge base completion | IJCAI | 2017 | [link](https://www.ijcai.org/Proceedings/2017/166) |
+| A\*Net | A\*Net: a scalable path-based reasoning approach for knowledge graphs | NeurIPS | 2024 | [link](https://proceedings.neurips.cc/paper_files/paper/2023/hash/b9e98316cb72fee82cc1160da5810abc-Abstract-Conference.html) |
+| SFE | Efficient and expressive knowledge base completion using subgraph feature extraction | EMNLP | 2015 | [link](https://doi.org/10.18653/v1/D15-1173) |
+| PathCon | Relational message passing for knowledge graph completion | KDD | 2021 | [link](https://doi.org/10.1145/3447548.3467247) |
+
+<div align="center">
+  <h3><strong>Reinforcement Learning-based Models</strong></h3>
+</div>
+
+| Model  | Title | Conference/Journal | Year | Paper |
+|:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
+| DeepPath   | DeepPath: a reinforcement learning method for knowledge graph reasoning | EMNLP | 2017 | [link](https://doi.org/10.18653/v1/D17-1060) |
+| MINERVA | Go for a walk and arrive at the answer: Reasoning over paths in knowledge bases using reinforcement learning | ICLR | 2018 | [link](https://www.akbc.ws/2017/papers/24_paper.pdf) |
+| DIVA  | Variational knowledge graph reasoning | NAACL | 2018 | [link](https://doi.org/10.18653/v1/N18-1165) |
+| MultiHopKG  | Multi-hop knowledge graph reasoning with reward shaping | EMNLP | 2018 | [link](https://doi.org/10.18653/v1/D18-1362) |
+| M-Walk  | M-Walk: Learning to walk over graphs using monte carlo tree search | NeurIPS | 2018 | [link]() |
+| RARL  | Rule-aware reinforcement learning for knowledge graph reasoning | ACL-IJCNLP | 2021 | [link](https://doi.org/10.18653/v1/2021.findings-acl.412) |
+| AttnPath  | Incorporating graph attention mechanism into knowledge graph reasoning based on deep reinforcement learning | EMNLP-IJCNLP | 2019 | [link](https://doi.org/10.18653/v1/D19-1264) |
+| DIVINE  | DIVINE: A generative adversarial imitation learning framework for knowledge graph reasoning | EMNLP-IJCNLP | 2019 | [link](https://doi.org/10.18653/v1/D19-1266) |
+
+<div align="center">
+  <h3><strong>LLM-based Multi-Step KGR Models</strong></h3>
+</div>
+
+| Model  | Title | Conference/Journal | Year | Paper |
+|:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
+| KG\&LLM Survey | Unifying large language models and knowledge graphs: A roadmap | IEEE TKDE | 2024 | [link](https://doi.org/10.1109/TKDE.2024.3352100) |
+| StructGPT | StructGPT: A general framework for large language model to reason over structured data | EMNLP | 2023 | [link](https://doi.org/10.18653/v1/2023.emnlp-main.574) |
+| KSL | Knowledge solver: Teaching LLMs to search for domain knowledge from knowledge graphs | arXiv | 2023 | [link](https://arxiv.org/abs/2309.03118) |
+| KD-CoT | Knowledge-driven CoT: Exploring faithful reasoning in LLMs for knowledge-intensive question answering | arXiv | 2023 | [link](https://arxiv.org/abs/2308.13259) |
+| ToG | Think-on-Graph: Deep and responsible reasoning of large language model on knowledge graph | ICLR | 2024 | [link](https://arxiv.org/pdf/2307.07697) |
+| KnowledgeNavigator | KnowledgeNavigator: Leveraging large language models for enhanced reasoning over knowledge graph | Complex Intell. Syst. | 2024 | [link](https://doi.org/10.1007/s40747-024-01527-8) |
+| Nguyen et al. | Direct evaluation of chain-of-thought in multi-hop reasoning with knowledge graphs | Findings of ACL | 2024 | [link](https://doi.org/10.18653/v1/2024.findings-acl.168) |
+| KG-Agent | KG-Agent: An efficient autonomous agent framework for complex reasoning over knowledge graph | arXiv | 2024 | [link](https://arxiv.org/abs/2402.11163) |
+| AgentTuning | AgentTuning: Enabling generalized agent abilities for LLMs | Findings of ACL | 2024 | [link](https://doi.org/10.18653/v1/2024.findings-acl.181) |
+| Glam | Glam: Fine-tuning large language models for domain knowledge graph alignment via neighborhood partitioning and generative subgraph encoding | AAAI Symposium | 2024 | [link](https://ojs.aaai.org/index.php/AAAI-SS/article/view/31186) |
