@@ -179,3 +179,44 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 | DGL-KE | Pytorch, MXNet | Optimized for execution on CPU and GPU clusters, offering high scalability for large-scale KGs. | [https://github.com/awslabs/dgl-ke](https://github.com/awslabs/dgl-ke) |
 | GraphVite | Pytorch | Provides efficient large-scale embedding learning, supports visualization of graph data, and enables multi-processing and GPU parallelization. | [https://github.com/DeepGraphLearning/graphvite](https://github.com/DeepGraphLearning/graphvite) |
 | PBG | Pytorch | Designed for distributed training, capable of handling KGs with billions of entities and trillions of edges. | [https://github.com/facebookresearch/PyTorch-BigGraph](https://github.com/facebookresearch/PyTorch-BigGraph) |
+
+### Logic Rule-based KGR Model
+
+<div align="center">
+  <h3><strong>Rule Learning for KG</strong></h3>
+</div>
+
+| Model  | Title | Conference/Journal | Year | Paper |
+|:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
+| FOIL | Learning logical definitions from relations | Machine Learning | 1990 | [link](https://doi.org/10.1023/A:1022699322624) |
+| MDIE | Inverse entailment and progol | New Generation Computing | 1995 | [link](https://doi.org/10.1007/BF03037227) |
+| Inspire | Best-effort inductive logic programming via fine-grained cost-based hypothesis generation | Machine Learning | 2018 | [link](https://doi.org/10.1007/s10994-018-5708-2) |
+| Neural-Num-LP | Differentiable learning of numerical rules in knowledge graphs | ICLR | 2020 | [link](https://openreview.net/pdf?id=rJleKgrKwS) |
+| AMIE+ | Fast rule mining in ontological knowledge bases with AMIE+ | VLDB Journal | 2015 | [link](https://doi.org/10.1007/s00778-015-0394-1) |
+| ScaLeKB | ScaLeKB: Scalable learning and inference over large knowledge bases | VLDB Journal | 2016 | [link](https://doi.org/10.1007/s00778-016-0444-3) |
+| RDF2rules | RDF2Rules: Learning rules from RDF knowledge bases by mining frequent predicate cycles | arXiv | 2015 | [link](https://arxiv.org/abs/1512.07734) |
+| SWARM | SWARM: An approach for mining semantic association rules from semantic web data | PRICAI | 2016 | [link](https://doi.org/10.1007/978-3-319-42911-3_3) |
+| Rudik | Rudik: Rule discovery in knowledge bases | PVLDB | 2018 | [link](https://doi.org/10.14778/3229863.3236231) |
+| RuLES | Rule learning from knowledge graphs guided by embedding models | ESWC | 2018 | [link](https://doi.org/10.1007/978-3-030-00671-6_5) |
+| Evoda | Rule learning over knowledge graphs with genetic logic programming | ICDE | 2022 | [link](https://doi.org/10.1109/ICDE53745.2022.00318) |
+| NeuralLP | Differentiable learning of logical rules for knowledge base reasoning | NeurIPS | 2017 | [link](https://proceedings.neurips.cc/paper/2017/file/0e55666a4ad822e0e34299df3591d979-Paper.pdf) |
+| DRUM | DRUM: End-to-end differentiable rule mining on knowledge graphs | NeurIPS | 2019 | [link](https://proceedings.neurips.cc/paper_files/paper/2019/file/0c72cb7ee1512f800abe27823a792d03-Paper.pdf) |
+| RLvLR | An embedding-based approach to rule learning in knowledge graphs | IEEE Transactions on Knowledge and Data Engineering | 2019 | [link](https://doi.org/10.1109/TKDE.2019.2941685) |
+| RNNLogic | RNNLogic: learning logic rules for reasoning on knowledge graphs | ICLR | 2021 | [link](https://arxiv.org/pdf/2010.04029) |
+| RARL | Relatedness and TBox-driven rule learning in large knowledge bases | AAAI | 2020 | [link](https://ojs.aaai.org/index.php/AAAI/article/view/5690/) |
+| Ruleformer | Ruleformer: context-aware rule mining over knowledge graph | COLING | 2022 | [link](https://aclanthology.org/2022.coling-1.225/) |
+| Ott et al. | Rule-based knowledge graph completion with canonical models | CIKM | 2023 | [link](https://doi.org/10.1145/3583780.3615042) |
+
+<div align="center">
+  <h3><strong>Neural-Symbolic KGR</strong></h3>
+</div>
+
+| Model  | Title | Conference/Journal | Year | Paper |
+|:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
+| KALE | Jointly embedding knowledge graphs and logical rules | EMNLP | 2016 | [link](https://doi.org/10.18653/v1/D16-1019) |
+| RUGE | Knowledge graph embedding with iterative guidance from soft rules | AAAI | 2018 | [link](https://ojs.aaai.org/index.php/AAAI/article/view/11918) |
+| RulE | RulE: Knowledge graph reasoning with rule embedding | Findings-ACL | 2024 | [link](https://doi.org/10.18653/v1/2024.findings-acl.256) |
+| RPJE | Rule-guided compositional representation learning on knowledge graphs | AAAI | 2020 | [link](https://doi.org/10.1609/aaai.v34i03.5687) |
+| IterE | Iteratively learning embeddings and rules for knowledge graph reasoning | WWW | 2019 | [link](https://doi.org/10.1145/3308558.3313612) |
+| UniKER | UniKER: A unified framework for combining embedding and definite Horn rule reasoning for knowledge graph inference | EMNLP | 2021 | [link](https://doi.org/10.18653/v1/2021.emnlp-main.769) |
+| EngineKG | Perform like an engine: A closed-loop neural-symbolic learning framework for knowledge graph inference | COLING | 2022 | [link](https://aclanthology.org/2022.coling-1.119/) |
