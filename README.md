@@ -272,3 +272,69 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 | KG-Agent | KG-Agent: An efficient autonomous agent framework for complex reasoning over knowledge graph | arXiv | 2024 | [link](https://arxiv.org/abs/2402.11163) |
 | AgentTuning | AgentTuning: Enabling generalized agent abilities for LLMs | Findings of ACL | 2024 | [link](https://doi.org/10.18653/v1/2024.findings-acl.181) |
 | Glam | Glam: Fine-tuning large language models for domain knowledge graph alignment via neighborhood partitioning and generative subgraph encoding | AAAI Symposium | 2024 | [link](https://ojs.aaai.org/index.php/AAAI-SS/article/view/31186) |
+
+## Dynamic KGR
+### Incremental KGE Model
+
+<div align="center">
+  <h3><strong>Incremental KGE Model</strong></h3>
+</div>
+
+| Model  | Title | Conference/Journal | Year | Paper |
+|:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
+| DKGE | Efficiently embedding dynamic knowledge graphs | Knowl.-Based Syst. | 2022 | [link](https://doi.org/10.1016/j.knosys.2022.109124) |
+| PuTransE | Non-parametric estimation of multiple embeddings for link prediction on dynamic knowledge graphs | AAAI | 2017 | [link](https://doi.org/10.1609/aaai.v31i1.10685) |
+| Liu et al. | Heuristic-driven, type-specific embedding in parallel spaces for enhancing knowledge graph reasoning | ICASSP | 2024 | [link]() |
+| ABIE | Anchors-based incremental embedding for growing knowledge graphs | TKDE | 2023 | [link](https://doi.org/10.1109/TKDE.2021.3136482) |
+| CKGE | Towards continual knowledge graph embedding via incremental distillation | AAAI | 2024 | [link](https://doi.org/10.1609/aaai.v38i8.28722) |
+| LKGE | Lifelong embedding learning and transfer for growing knowledge graphs | AAAI | 2023 | [link](https://doi.org/10.1609/aaai.v37i4.25539) |
+| AIR | AIR: Adaptive incremental embedding updating for dynamic knowledge graphs | DASFAA | 2023 | [link](https://doi.org/10.1007/978-3-031-30672-3_41) |
+| TIE | TIE: A framework for embedding-based incremental temporal knowledge graph completion | SIGIR | 2021 | [link](https://doi.org/10.1145/3404835.3462961) |
+| RotatH | Incremental update of knowledge graph embedding by rotating on hyperplanes | ICWS | 2021 | [link](https://doi.org/10.1109/ICWS53863.2021.00072) |
+| MMRotatH | Knowledge graph incremental embedding for unseen modalities | Knowl. Inf. Syst. | 2023 | [link](https://doi.org/10.1007/s10115-023-01868-9) |
+| DKGE | Efficiently embedding dynamic knowledge graphs | Knowl.-Based Syst. | 2022 | [link](https://doi.org/10.1016/j.knosys.2022.109124) |
+| Navi | Dynamic knowledge graph embeddings via local embedding reconstructions | ESWC (Satellite) | 2022 | [link](https://doi.org/10.1007/978-3-031-11609-4_36) |
+| UOKE | Online updates of knowledge graph embedding | Complex Networks X | 2021 | [link](https://doi.org/10.1007/978-3-030-93413-2_44) |
+| 257 | Temporal knowledge graph incremental construction model for recommendation | APWeb-WAIM | 2020 | [link](https://doi.org/10.1007/978-3-030-60259-8_26) |
+
+### Temporal KGR Model
+
+<div align="center">
+  <h3><strong>Time Embedding-based Models</strong></h3>
+</div>
+
+| Model  | Title | Conference/Journal | Year | Paper |
+|:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
+| TA-TransE   | Learning sequence encoders for temporal knowledge graph completion | EMNLP | 2018 | [link](https://doi.org/10.18653/v1/D18-1516) |
+| HyTE   | HyTE: Hyperplane-based temporally aware knowledge graph embedding | EMNLP | 2018 | [link](https://doi.org/10.18653/v1/D18-1225) |
+| TTransE  | Deriving validity time in knowledge graph | WWW | 2018 | N/A |
+| TERO  | TeRo: A time-aware knowledge graph embedding via temporal rotation | COLING | 2020 | [link](https://doi.org/10.18653/v1/2020.coling-main.139) |
+| TDistMult  | Embedding models for episodic knowledge graphs | JWS | 2019 | [link](https://doi.org/10.1016/j.websem.2018.12.008) |
+| TComplEx  | Tensor decompositions for temporal knowledge base completion | ICLR | 2020 | N/A |
+| SimplE  | Diachronic embedding for temporal knowledge graph completion | AAAI | 2020 | N/A |
+| ATiSE  | Temporal KGC based on time series gaussian embedding | ISWC | 2020 | [link](https://doi.org/10.1007/978-3-030-62419-4_37) |
+| TARGAT  | TARGAT: A time-aware relational graph attention model | IEEE/ACM TASLP | 2023 | [link](https://doi.org/10.1109/TASLP.2023.3282101) |
+| LCGE  | Logic and commonsense-guided TKGC | AAAI | 2023 | [link](https://doi.org/10.1609/aaai.v37i4.25579) |
+
+<div align="center">
+  <h3><strong>Evolution Learning-based Models</strong></h3>
+</div>
+
+| Model  | Title | Conference/Journal | Year | Paper |
+|:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
+| Know-Evolve  | Know-evolve: deep temporal reasoning for dynamic knowledge graphs | ICML  | 2017 | - |
+| RE-NET  | Recurrent event network: autoregressive structure inference over temporal knowledge graphs | EMNLP | 2020 | - |
+| CyGNet  | Learning from history: modeling temporal knowledge graphs with sequential copy-generation networks | AAAI  | 2021 | - |
+| CluSTeR  | Search from history and reason for future: two-stage reasoning on temporal knowledge graphs | ACL   | 2021 | - |
+
+<div align="center">
+  <h3><strong>Temporal Rule Learning</strong></h3>
+</div>
+
+| Model  | Title | Conference/Journal | Year | Paper |
+|:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
+| StreamLearner | Learning temporal rules from knowledge graph streams | AAAI Spring Symposium | 2019 | - |
+| Tlogic | Tlogic: temporal logical rules for explainable link forecasting on temporal knowledge graphs | AAAI | 2022 | [link](https://doi.org/10.1609/aaai.v36i4.20330) |
+| TILP | TILP: differentiable learning of temporal logical rules on knowledge graphs | ICLR | 2023 | - |
+| TEILP | TEILP: time prediction over knowledge graphs via logical reasoning | AAAI | 2024 | - |
+| NeuSTIP | NeuSTIP: a neuro-symbolic model for link and time prediction in temporal knowledge graphs | EMNLP | 2023 | [link](https://doi.org/10.18653/v1/2023.emnlp-main.274) |
