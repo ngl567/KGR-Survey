@@ -307,11 +307,11 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 |:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
 | TA-TransE   | Learning sequence encoders for temporal knowledge graph completion | EMNLP | 2018 | [link](https://doi.org/10.18653/v1/D18-1516) |
 | HyTE   | HyTE: Hyperplane-based temporally aware knowledge graph embedding | EMNLP | 2018 | [link](https://doi.org/10.18653/v1/D18-1225) |
-| TTransE  | Deriving validity time in knowledge graph | WWW | 2018 | N/A |
+| TTransE  | Deriving validity time in knowledge graph | WWW | 2018 | [link](https://dl.acm.org/doi/pdf/10.1145/3184558.3191639) |
 | TERO  | TeRo: A time-aware knowledge graph embedding via temporal rotation | COLING | 2020 | [link](https://doi.org/10.18653/v1/2020.coling-main.139) |
 | TDistMult  | Embedding models for episodic knowledge graphs | JWS | 2019 | [link](https://doi.org/10.1016/j.websem.2018.12.008) |
-| TComplEx  | Tensor decompositions for temporal knowledge base completion | ICLR | 2020 | N/A |
-| SimplE  | Diachronic embedding for temporal knowledge graph completion | AAAI | 2020 | N/A |
+| TComplEx  | Tensor decompositions for temporal knowledge base completion | ICLR | 2020 | [link](https://arxiv.org/pdf/2004.04926) |
+| SimplE  | Diachronic embedding for temporal knowledge graph completion | AAAI | 2020 | [link](https://ojs.aaai.org/index.php/AAAI/article/view/5815) |
 | ATiSE  | Temporal KGC based on time series gaussian embedding | ISWC | 2020 | [link](https://doi.org/10.1007/978-3-030-62419-4_37) |
 | TARGAT  | TARGAT: A time-aware relational graph attention model | IEEE/ACM TASLP | 2023 | [link](https://doi.org/10.1109/TASLP.2023.3282101) |
 | LCGE  | Logic and commonsense-guided TKGC | AAAI | 2023 | [link](https://doi.org/10.1609/aaai.v37i4.25579) |
@@ -322,10 +322,10 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 
 | Model  | Title | Conference/Journal | Year | Paper |
 |:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
-| Know-Evolve  | Know-evolve: deep temporal reasoning for dynamic knowledge graphs | ICML  | 2017 | - |
-| RE-NET  | Recurrent event network: autoregressive structure inference over temporal knowledge graphs | EMNLP | 2020 | - |
-| CyGNet  | Learning from history: modeling temporal knowledge graphs with sequential copy-generation networks | AAAI  | 2021 | - |
-| CluSTeR  | Search from history and reason for future: two-stage reasoning on temporal knowledge graphs | ACL   | 2021 | - |
+| Know-Evolve  | Know-evolve: deep temporal reasoning for dynamic knowledge graphs | ICML  | 2017 | [link](https://proceedings.mlr.press/v70/trivedi17a.html) |
+| RE-NET  | Recurrent event network: autoregressive structure inference over temporal knowledge graphs | EMNLP | 2020 | [link](https://aclanthology.org/2020.emnlp-main.541/) |
+| CyGNet  | Learning from history: modeling temporal knowledge graphs with sequential copy-generation networks | AAAI  | 2021 | [link](https://ojs.aaai.org/index.php/AAAI/article/view/16604) |
+| CluSTeR  | Search from history and reason for future: two-stage reasoning on temporal knowledge graphs | ACL   | 2021 | [link](https://aclanthology.org/2021.acl-long.365/) |
 
 <div align="center">
   <h3><strong>Temporal Rule Learning</strong></h3>
@@ -333,8 +333,8 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 
 | Model  | Title | Conference/Journal | Year | Paper |
 |:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
-| StreamLearner | Learning temporal rules from knowledge graph streams | AAAI Spring Symposium | 2019 | - |
+| StreamLearner | Learning temporal rules from knowledge graph streams | AAAI Spring Symposium | 2019 | [link](https://dl.acm.org/doi/10.1145/3437963.3441741) |
 | Tlogic | Tlogic: temporal logical rules for explainable link forecasting on temporal knowledge graphs | AAAI | 2022 | [link](https://doi.org/10.1609/aaai.v36i4.20330) |
-| TILP | TILP: differentiable learning of temporal logical rules on knowledge graphs | ICLR | 2023 | - |
-| TEILP | TEILP: time prediction over knowledge graphs via logical reasoning | AAAI | 2024 | - |
+| TILP | TILP: differentiable learning of temporal logical rules on knowledge graphs | ICLR | 2023 | [link](https://arxiv.org/pdf/2402.12309) |
+| TEILP | TEILP: time prediction over knowledge graphs via logical reasoning | AAAI | 2024 | [link](https://ojs.aaai.org/index.php/AAAI/article/view/29544) |
 | NeuSTIP | NeuSTIP: a neuro-symbolic model for link and time prediction in temporal knowledge graphs | EMNLP | 2023 | [link](https://doi.org/10.18653/v1/2023.emnlp-main.274) |
