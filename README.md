@@ -338,3 +338,76 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 | TILP | TILP: differentiable learning of temporal logical rules on knowledge graphs | ICLR | 2023 | [link](https://arxiv.org/pdf/2402.12309) |
 | TEILP | TEILP: time prediction over knowledge graphs via logical reasoning | AAAI | 2024 | [link](https://ojs.aaai.org/index.php/AAAI/article/view/29544) |
 | NeuSTIP | NeuSTIP: a neuro-symbolic model for link and time prediction in temporal knowledge graphs | EMNLP | 2023 | [link](https://doi.org/10.18653/v1/2023.emnlp-main.274) |
+
+<div align="center">
+  <h3><strong>Multi-step TKGR Model</strong></h3>
+</div>
+
+| Model  | Title | Conference/Journal | Year | Paper |
+|:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
+| xERTE  | Explainable subgraph reasoning for forecasting on temporal knowledge graphs | ICLR | 2021 | [link](https://iclr.cc/virtual/2021/poster/3378) |
+| CluSTeR | Search from history and reason for future: two-stage reasoning on temporal knowledge graphs | ACL | 2021 | [link](https://aclanthology.org/2021.acl-long.365/) |
+| TPath | Multi-hop reasoning over paths in temporal knowledge graphs using reinforcement learning | Applied Soft Computing | 2021 | [link](https://doi.org/10.1016/j.asoc.2021.107144) |
+| T-GAP | Learning to walk across time for interpretable temporal knowledge graph completion | KDD | 2021 | [link](https://doi.org/10.1145/3447548.3467292) |
+| RTTI | Reinforcement learning with time intervals for temporal knowledge graph reasoning | Information Systems | 2024 | [link](https://doi.org/10.1016/j.is.2023.102292) |
+| TITer | TimeTraveler: Reinforcement learning for temporal knowledge graph forecasting | EMNLP | 2021 | [link](https://doi.org/10.18653/v1/2021.emnlp-main.655) |
+
+<div align="center">
+  <h3><strong>LLM-based TKGR Model</strong></h3>
+</div>
+
+| Model  | Title | Conference/Journal | Year | Paper |
+|:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
+| PPT | Pre-trained language model with prompts for temporal knowledge graph completion | Findings of ACL | 2023 | [link](https://doi.org/10.18653/v1/2023.findings-acl.493) |
+| ECOLA | ECOLA: Enhancing temporal knowledge embeddings with contextualized language representations | Findings of ACL | 2023 | [link](https://doi.org/10.18653/v1/2023.findings-acl.335) |
+| SToKE | Learning joint structural and temporal contextualized knowledge embeddings for temporal knowledge graph completion | Findings of ACL | 2023 | [link](https://doi.org/10.18653/v1/2023.findings-acl.28) |
+| NeoX | Temporal knowledge graph forecasting without knowledge using in-context learning | EMNLP | 2023 | [link](https://doi.org/10.18653/v1/2023.emnlp-main.36) |
+| CSProm-KG | Dipping PLMs Sauce: Bridging structure and text for effective knowledge graph completion via conditional soft prompting | Findings of ACL | 2023 | [link](https://doi.org/10.18653/v1/2023.findings-acl.729) |
+| zrLLM | zrLLM: Zero-shot relational learning on temporal knowledge graphs with large language models | NAACL | 2024 | [link](https://doi.org/10.18653/v1/2024.naacl-long.104) |
+
+### Multi-Modal KGR
+
+<div align="center">
+  <h3><strong>Multi-Modal Embedding-based Models</strong></h3>
+</div>
+
+| Model  | Title | Conference/Journal | Year | Paper |
+|:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
+| Wang et al. | Knowledge graph and text jointly embedding | EMNLP | 2014 | [link](https://doi.org/10.3115/v1/D14-1167) |
+| DKRL | Representation learning of knowledge graphs with entity descriptions | AAAI | 2016 | [link](https://ojs.aaai.org/index.php/AAAI/article/view/10329) |
+| TEKE | Text-enhanced representation learning for knowledge graph | IJCAI | 2016 | [link](https://www.ijcai.org/Abstract/16/187) |
+| KG-BERT | Modeling relational data with graph convolutional networks | ESWC | 2018 | [Link](https://doi.org/10.1007/978-3-319-93417-4_38) |
+| SimKGC | SimKGC: Simple contrastive knowledge graph completion with pre-trained language models | ACL | 2022 | [link](https://doi.org/10.18653/v1/2022.acl-long.295) |
+| StAR | Structure-augmented text representation learning for efficient knowledge graph completion | WWW | 2021 | [link](https://doi.org/10.1145/3442381.3450043) |
+| IKRL | Image-embodied knowledge representation learning | IJCAI | 2017 | [link](https://www.ijcai.org/proceedings/2017/438) |
+| TransAE | Multimodal data enhanced representation learning for knowledge graphs | IJCNN | 2019 | [link](https://ieeexplore.ieee.org/document/8852079) |
+| RSME | Is visual context really helpful for knowledge graph? A representation learning perspective | ACM MM | 2021 | [link](https://doi.org/10.1145/3474085.3475470) |
+| OTKGE | OTKGE: multi-modal knowledge graph embeddings via optimal transport | NeurIPS | 2024 | [link](https://dl.acm.org/doi/10.5555/3600270.3603103) |
+| HRGAT | Hyper-node relational graph attention network for multi-modal knowledge graph completion | ACM TOMM | 2023 | [link](https://doi.org/10.1145/3545573) |
+| MKBE | Embedding multimodal relational data for knowledge base completion | EMNLP | 2018 | [link](https://doi.org/10.18653/v1/D18-1359) |
+| MMKGR | MMKGR: multi-hop multi-modal knowledge graph reasoning | ICDE | 2022 | [link](https://doi.org/10.1109/ICDE55515.2023.00015) |
+| NativE | NativE: Multi-modal knowledge graph completion in the wild | SIGIR | 2024 | [link](https://doi.org/10.1145/3626772.3657800) |
+|TransFusion88 | TransFusion: Multi-modal fusion for video tag inference via translation-based knowledge embedding | ACM MM | 2021 | [link](https://doi.org/10.1145/3474085.3481535) |
+| MoSE | MoSE: modality split and ensemble for multimodal knowledge graph completion | EMNLP | 2022 | [link](https://doi.org/10.18653/v1/2022.emnlp-main.719) |
+| IMF | IMF: interactive multimodal fusion model for link prediction | WWW | 2023 | [link](https://doi.org/10.1145/3543507.3583554) |
+| MMRNS | Relation-enhanced negative sampling for multimodal knowledge graph completion | ACM MM | 2022 | [link](https://doi.org/10.1145/3503161.3548388) |
+| MANS  | Modality-aware negative sampling for multi-modal knowledge graph embedding | IJCNN | 2023 | [link](https://doi.org/10.1109/IJCNN54540.2023.10191314) |
+| DHNS | Diffusion-based Hierarchical Negative Sampling for Multimodal Knowledge Graph Completion | arXiv | 2025 | [link](https://arxiv.org/abs/2501.15393) |
+
+<div align="center">
+  <h3><strong>PLM-based Model</strong></h3>
+</div>
+
+| Model  | Title | Conference/Journal | Year | Paper |
+|:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
+| VL-BERT | VL-BERT: pre-training of generic visual-linguistic representations | ICLR | 2019 | [link](https://iclr.cc/virtual_2020/poster_SygXPaEYvH.html) |
+| Visualbert | Visualbert: A simple and performant baseline for vision and language | arXiv | 2019 | [link](https://arxiv.org/abs/1908.03557) |
+| Unicoder-VL | Unicoder-VL: A universal encoder for vision and language by cross-modal pre-training | AAAI | 2020 | [link](https://doi.org/10.1609/aaai.v34i07.6795) |
+| UNITER | UNITER: universal image-text representation learning | SpringerLink | 2020 | [link](https://doi.org/10.1007/978-3-030-58577-8_7) |
+| LXMERT | LXMERT: learning cross-modality encoder representations from transformers | EMNLP-IJCNLP | 2019 | [link](https://doi.org/10.18653/v1/D19-1514) |
+| ViLBERT | ViLBERT: pretraining task-agnostic visiolinguistic representations for vision-and-language tasks | NeurIPS | 2019 | [link](https://papers.nips.cc/paper/2019/hash/c74d97b01eae257e44aa9d5bade97baf-Abstract.html) |
+| MKGformer | Hybrid transformer with multi-level fusion for multimodal knowledge graph completion | SIGIR | 2022 | [link](https://doi.org/10.1145/3477495.3531992) |
+| VISTA | VISTA: visual-textual knowledge graph representation learning | EMNLP Findings | 2023 | [link](https://doi.org/10.18653/v1/2023.findings-emnlp.488) |
+| SGMPT | Structure guided multi-modal pre-trained transformer for knowledge graph reasoning | arXiv | 2023 | [link](https://arxiv.org/abs/2307.03591) |
+| MMKRL | MMKRL: a robust embedding approach for multi-modal knowledge graph representation learning | Applied Intelligence | 2022 | [link](https://doi.org/10.1007/s10489-021-02693-9) |
+| KoPA | Mixture of modality knowledge experts for robust multi-modal knowledge graph completion | arXiv | 2024 | [link](https://arxiv.org/abs/2405.16869) |
