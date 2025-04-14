@@ -480,3 +480,12 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 | MetaRT | Few-shot link prediction with meta-learning for temporal knowledge graphs | J. Comput. Des. Eng. | 2023 | [link](https://doi.org/10.1093/jcde/qwad016) |
 | MetaTKGR | Learning to sample and aggregate: few-shot reasoning over temporal knowledge graphs | NeurIPS | 2022 | [link](https://proceedings.neurips.cc/paper/2022/hash/2e4b287e8e075e44bbf9a5d87f7c8ff6-Abstract.html) |
 | FITCARL | Improving few-shot inductive learning on temporal knowledge graphs using confidence-augmented reinforcement learning | Machine Learning and Knowledge Discovery in Databases | 2023 | [link](https://doi.org/10.1007/978-3-031-43418-1_33) |
+
+### Inductive KGR0
+
+<div align="center">
+  <h3><strong>Rule-based Models</strong></h3>
+</div>
+
+| Model  | Title | Conference/Journal | Year | Paper |
+|:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
