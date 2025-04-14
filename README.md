@@ -86,7 +86,7 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 | LGKGR | LGKGR: A knowledge graph reasoning model using LLMs augmented GNNs | Neurocomputing | 2025 | [Link](https://doi.org/10.1016/j.neucom.2025.129919) |
 
 <div align="center">
-  <h3><strong>Ontology-Enhanced KGE Model</strong></h3>
+  <h3><strong>Ontology-Enhanced KGE Models</strong></h3>
 </div>
 
 | Model  | Title | Conference/Journal | Year | Paper |
@@ -103,7 +103,7 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 | AutoETER | AutoETER: Automated entity type representation for knowledge graph embedding | EMNLP | 2020 | [link](https://doi.org/10.18653/v1/2020.findings-emnlp.105) |
 
 <div align="center">
-  <h3><strong>Path-Enhanced KGE Model</strong></h3>
+  <h3><strong>Path-Enhanced KGE Models</strong></h3>
 </div>
 
 | Model  | Title | Conference/Journal | Year | Paper |
@@ -277,7 +277,7 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 ### Incremental KGE Model
 
 <div align="center">
-  <h3><strong>Incremental KGE Model</strong></h3>
+  <h3><strong>Incremental KGE Models</strong></h3>
 </div>
 
 | Model  | Title | Conference/Journal | Year | Paper |
@@ -340,7 +340,7 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 | NeuSTIP | NeuSTIP: a neuro-symbolic model for link and time prediction in temporal knowledge graphs | EMNLP | 2023 | [link](https://doi.org/10.18653/v1/2023.emnlp-main.274) |
 
 <div align="center">
-  <h3><strong>Multi-step TKGR Model</strong></h3>
+  <h3><strong>Multi-step TKGR Models</strong></h3>
 </div>
 
 | Model  | Title | Conference/Journal | Year | Paper |
@@ -353,7 +353,7 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 | TITer | TimeTraveler: Reinforcement learning for temporal knowledge graph forecasting | EMNLP | 2021 | [link](https://doi.org/10.18653/v1/2021.emnlp-main.655) |
 
 <div align="center">
-  <h3><strong>LLM-based TKGR Model</strong></h3>
+  <h3><strong>LLM-based TKGR Models</strong></h3>
 </div>
 
 | Model  | Title | Conference/Journal | Year | Paper |
@@ -395,7 +395,7 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 | DHNS | Diffusion-based Hierarchical Negative Sampling for Multimodal Knowledge Graph Completion | arXiv | 2025 | [link](https://arxiv.org/abs/2501.15393) |
 
 <div align="center">
-  <h3><strong>PLM-based Model</strong></h3>
+  <h3><strong>PLM-based Models</strong></h3>
 </div>
 
 | Model  | Title | Conference/Journal | Year | Paper |
@@ -411,3 +411,72 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 | SGMPT | Structure guided multi-modal pre-trained transformer for knowledge graph reasoning | arXiv | 2023 | [link](https://arxiv.org/abs/2307.03591) |
 | MMKRL | MMKRL: a robust embedding approach for multi-modal knowledge graph representation learning | Applied Intelligence | 2022 | [link](https://doi.org/10.1007/s10489-021-02693-9) |
 | KoPA | Mixture of modality knowledge experts for robust multi-modal knowledge graph completion | arXiv | 2024 | [link](https://arxiv.org/abs/2405.16869) |
+
+### Few-Shot KGR
+
+<div align="center">
+  <h3><strong>Metric Learning-based Models</strong></h3>
+</div>
+
+| Model  | Title | Conference/Journal | Year | Paper |
+|:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
+| GMatching | One-shot relational learning for knowledge graphs | EMNLP | 2018 | [link](https://doi.org/10.18653/v1/D18-1223) |
+| FSRL | Few-shot knowledge graph completion | AAAI | 2020 | [link](https://doi.org/10.1609/aaai.v34i03.5698) |
+| FAAN | Adaptive attentional network for few-shot knowledge graph completion | EMNLP | 2020 | [link](https://doi.org/10.18653/v1/2020.emnlp-main.131) |
+| TransAM | Exploring entity interactions for few-shot relation learning (student abstract) | AAAI | 2022 | [link](https://ojs.aaai.org/index.php/AAAI/article/view/21638) |
+| FRL-KGC | Few-shot knowledge graph completion model based on relation learning | Applied Sciences | 2023 | [link](https://doi.org/10.3390/app13179513) |
+| HMNet | HMNet: hybrid matching network for few-shot link prediction | DASFAA | 2021 | [link](https://doi.org/10.1007/978-3-030-73194-6_21) |
+| Metap | Metap: meta pattern learning for one-shot knowledge graph completion | SIGIR | 2021 | [link](https://doi.org/10.1145/3404835.3463086) |
+
+<div align="center">
+  <h3><strong>Meta-Learning-based Models</strong></h3>
+</div>
+
+| Model  | Title | Conference/Journal | Year | Paper |
+|:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
+| MetaR | Meta relational learning for few-shot link prediction in knowledge graphs | EMNLP-IJCNLP | 2019 | [link](https://doi.org/10.18653/v1/D19-1431) |
+| GANA | Relational learning with gated and attentive neighbor aggregator for few-shot knowledge graph completion | SIGIR | 2021 | [link](https://doi.org/10.1145/3404835.3462925) |
+| Meta-iKG | Subgraph-aware few-shot inductive link prediction via meta-learning | IEEE TKDE | 2022 | [link](https://doi.org/10.1109/TKDE.2022.3177212) |
+| SMetaR | Simple and effective meta relational learning for few-shot knowledge graph completion | Optimization and Engineering | 2024 | [link](https://doi.org/10.1007/s11081-024-09880-w) |
+| HiRe | Hierarchical relational learning for few-shot knowledge graph completion | arXiv | 2022 | [link](https://arxiv.org/abs/2209.01205) |
+| MTRN | Task-related network based on meta-learning for few-shot knowledge graph completion | Applied Intelligence | 2024 | [link](https://doi.org/10.1007/s10489-024-05480-4) |
+
+<div align="center">
+  <h3><strong>Auxiliary Information-Enhanced Models</strong></h3>
+</div>
+
+| Model  | Title | Conference/Journal | Year | Paper |
+|:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
+| TCVAE | Tackling long-tailed relations and uncommon entities in knowledge graph completion | EMNLP-IJCNLP | 2019 | [link](https://doi.org/10.18653/v1/D19-1024) |
+| ZSGAN | Generative adversarial zero-shot relational learning for knowledge graphs | AAAI | 2020 | [link](https://doi.org/10.1609/aaai.v34i05.6392) |
+| HAPZSL | HAPZSL: a hybrid attention prototype network for knowledge graph zero-shot relational learning | Neurocomputing | 2022 | [link](https://doi.org/10.1016/j.neucom.2022.07.038) |
+| OntoZSL | OntoZSL: ontology-enhanced zero-shot learning | WWW | 2021 | [link](https://doi.org/10.1145/3442381.3450042) |
+| DOZSL | Disentangled ontology embedding for zero-shot learning | IJCAI | 2018 | [link](https://doi.org/10.1145/3534678.3539453) |
+| DMoG | Decoupling mixture-of-graphs: unseen relational learning for knowledge graph completion by fusing ontology and textual experts | COLING | 2022 | 无DOI |
+| P-INT | P-INT: a path-based interaction model for few-shot knowledge graph completion | EMNLP Findings | 2021 | [link](https://doi.org/10.18653/v1/2021.findings-emnlp.35) |
+| EPIRL | Enhancing path information with reinforcement learning for few-shot knowledge graph completion | ICPADS | 2023 | [link](https://doi.org/10.1109/ICPADS60453.2023.00225) |
+
+<div align="center">
+  <h3><strong>Multi-Step Few-Shot KGR Models</strong></h3>
+</div>
+
+| Model  | Title | Conference/Journal | Year | Paper |
+|:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
+| Meta-KGR | Adapting meta knowledge graph information for multi-hop reasoning over few-shot relations | EMNLP-IJCNLP | 2019 | [link](https://doi.org/10.18653/v1/D19-1334) |
+| FIRE | Few-shot multi-hop relation reasoning over knowledge bases | EMNLP | 2020 | [link](https://doi.org/10.18653/v1/2020.findings-emnlp.51) |
+| ADK-KG | Adapting distilled knowledge for few-shot relation reasoning over knowledge graphs | SDM | 2022 | [link](https://doi.org/10.1137/1.9781611977172.75) |
+| THML | When hardness makes a difference: multi-hop knowledge graph reasoning over few-shot relations | CIKM | 2021 | [link](https://doi.org/10.1145/3459637.3482402) |
+
+<div align="center">
+  <h3><strong>Temporal Few-Shot KGR Models</strong></h3>
+</div>
+
+| Model  | Title | Conference/Journal | Year | Paper |
+|:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
+| FTMO | Few-shot temporal knowledge graph completion based on meta-optimization | Complex Intell. Syst. | 2023 | [link](https://doi.org/10.1007/s40747-023-01146-9) |
+| TFSC | Few-shot link prediction for temporal knowledge graphs based on time-aware translation and attention mechanism | Neural Networks | 2023 | [link](https://doi.org/10.1016/j.neunet.2023.01.043) |
+| TR-Match | Temporal-relational matching network for few-shot temporal knowledge graph completion | DASFAA 2023 | 2023 | [link](https://doi.org/10.1007/978-3-031-30672-3_52) |
+| FTMF | FTMF: few-shot temporal knowledge graph completion based on meta-optimization and fault-tolerant mechanism | World Wide Web | 2023 | [link](https://doi.org/10.1007/s11280-022-01091-6) |
+| MetaRT | Few-shot link prediction with meta-learning for temporal knowledge graphs | J. Comput. Des. Eng. | 2023 | [link](https://doi.org/10.1093/jcde/qwad016) |
+| MetaTKGR | Learning to sample and aggregate: few-shot reasoning over temporal knowledge graphs | NeurIPS | 2022 | [link](https://proceedings.neurips.cc/paper/2022/hash/2e4b287e8e075e44bbf9a5d87f7c8ff6-Abstract.html) |
+| FITCARL | Improving few-shot inductive learning on temporal knowledge graphs using confidence-augmented reinforcement learning | Machine Learning and Knowledge Discovery in Databases | 2023 | [link](https://doi.org/10.1007/978-3-031-43418-1_33) |
