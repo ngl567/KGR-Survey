@@ -481,7 +481,7 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 | MetaTKGR | Learning to sample and aggregate: few-shot reasoning over temporal knowledge graphs | NeurIPS | 2022 | [link](https://proceedings.neurips.cc/paper/2022/hash/2e4b287e8e075e44bbf9a5d87f7c8ff6-Abstract.html) |
 | FITCARL | Improving few-shot inductive learning on temporal knowledge graphs using confidence-augmented reinforcement learning | Machine Learning and Knowledge Discovery in Databases | 2023 | [link](https://doi.org/10.1007/978-3-031-43418-1_33) |
 
-### Inductive KGR0
+### Inductive KGR
 
 <div align="center">
   <h3><strong>Rule-based Models</strong></h3>
@@ -489,3 +489,10 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 
 | Model  | Title | Conference/Journal | Year | Paper |
 |:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
+| GraphSAGE | Inductive representation learning on large graphs | NeurIPS | 2017 | [link](https://papers.nips.cc/paper/2017/hash/5dd9db5e033da9c6fb5ba83c7a7ebea9-Abstract.html) |
+| RuleNet | Missing-edge aware knowledge graph inductive inference through dual graph learning and traversing | Expert Systems with Applications | 2023 | [link](https://doi.org/10.1016/j.eswa.2022.118969) |
+| CBGNN | Cycle representation learning for inductive relation prediction | Proceedings of Machine Learning Research | 2022 | [link](https://proceedings.mlr.press/v162/yan22a.html) |
+| RED-GNN | Knowledge graph reasoning with relational digraph | ACM Web Conference | 2022 | [link](https://doi.org/10.1145/3485447.3512008) |
+| VN | VN network: embedding newly emerging entities with virtual neighbors | CIKM | 2020 | [link](https://doi.org/10.1145/3340531.3411865) |
+| ARGCN | Inductive knowledge graph reasoning for multi-batch emerging entities | CIKM | 2022 | [link](https://doi.org/10.1145/3511808.3557361) |
+| ELPE | Explainable link prediction for emerging entities in knowledge graphs | ISWC | 2020 | [link](https://doi.org/10.1007/978-3-030-62419-4_3) |
