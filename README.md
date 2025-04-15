@@ -555,7 +555,7 @@ Key characteristics of this project: unlike other outstanding review repositorie
 
 ### Datasets for Static KGR Tasks
 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dataset&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        | &nbsp;#Entities&nbsp;     | &nbsp;#Relations&nbsp;   | &nbsp;#Training Triples&nbsp;      | &nbsp;#Valid Triples&nbsp;   | &nbsp;#Test Triples&nbsp;   | Paper Link |
+| Dataset        | #Entities     | #Relations  | #Training      | #Valid   | #Test   | Paper |
 |:----------------:|----------:|--------:|-------------:|----------:|----------:|:--------------------------------------------------------------:|
 | Countries      | 271      | 2      | 1,110       | 24       | 24       | [link](https://aaai.org/papers/10257-10257-on-approximate-reasoning-capabilities-of-low-rank-vector-spaces/) |
 | Kinship        | 104      | 25     | 8,544       | 1,068    | 1,074    | [link](https://doi.org/10.1145/1273496.1273551)                       |
@@ -572,9 +572,9 @@ Key characteristics of this project: unlike other outstanding review repositorie
 | YAGO37         | 123,189  | 37     | 420,623     | 50,000   | 50,000   | [link](https://doi.org/10.1609/aaai.v32i1.11535)                      |
 | NELL-995       | 75,492   | 200    | 126,176     | 5,000    | 5,000    | [link](https://doi.org/10.18653/v1/D17-1060)                          |
 
-### Datasets for Static KGR Tasks
+### Datasets for Dynamic KGR Tasks
 
-| Dataset        | #Entities     | #Relations  |  Temporal  | #Training Triples      | #Valid Triples   | #Test Triples   | Paper Link |
+| Dataset        | #Entities     | #Relations  |  Temporal  | #Training      | #Valid   | #Test   | Paper Link |
 |:----------------:|----------:|--------:|:----------------:|-------------:|----------:|----------:|:--------------------------------------------------------------:|
 | GDELT            | 7,691   | 240  | Timestemp   | 1,033,270  | 238,765  | 305,241  | [link](https://www.bibsonomy.org/bibtex/147c6cb987d60b8fac88b0293b38fe01f/asmelash?lang=en)  |
 | ICEWS14          | 6,738   | 235  | Timestemp   | 118,766    | 14,859   | 14,756   | [link](https://iclr.cc/virtual/2021/poster/3378)  |
@@ -582,3 +582,54 @@ Key characteristics of this project: unlike other outstanding review repositorie
 | Wikidata12k      | 12,554  | 24   | Time Interval   | 2,735,685  | 341,961  | 341,961  | [link](https://doi.org/10.18653/v1/D18-1225)                       |
 | YAGO11k          | 10,623  | 10   | Time Interval   | 161,540    | 19,523   | 20,026   | [link](https://doi.org/10.1007/978-3-031-00123-9_10)               |
 | YAGO15k          | 15,403  | 34   | Time Interval   | 110,441    | 13,815   | 13,800   | [link](https://doi.org/10.18653/v1/D18-1516)                       |
+
+### Datasets for Multi-modal KGR Tasks
+
+| Dataset        | #Entities     | #Relations  |  Modality  | #Training      | #Valid   | #Test   | Paper Link |
+|:----------------:|----------:|--------:|:----------------:|-------------:|----------:|----------:|:--------------------------------------------------------------:|
+| FB-IMG-TXT         | 11,757 | 1,231| Image+Text      | 285,850  | 34,863 | 29,580 | [link](https://doi.org/10.18653/v1/S18-2027)                          |
+| FB15K237-IMG       | 14,541 | 237  | Image        | 272,115  | 17,535 | 20,466 | [link](https://doi.org/10.1145/3477495.3531992)                       |
+| WN9-IMG-TXT        | 6,555  | 9    | Image+Text      | 11,741   | 1,319  | 1,337  | [link](https://doi.org/10.18653/v1/S18-2027)                          |
+| WN18-IMG           | 40,943 | 18   | Image        | 141,442  | 5,000  | 5,000  | [link](https://doi.org/10.1145/3477495.3531992)                       |
+| MKG-Wikipedia      | 15,000 | 169  | Image        | 34,196   | 4,274  | 4,276  | [link](https://doi.org/10.1145/3503161.3548388)                       |
+| MKG-YAGO           | 15,000 | 28   | Image        | 21,310   | 2,663  | 2,665  | [link](https://doi.org/10.1145/3581783.3612266)                       |
+| TIVA               | 11,858 | 16   | Video        | 20,071   | 2,000  | 2,000  | [link](https://doi.org/10.1145/3626772.3657800)                       |
+
+### Datasets for Few-shot KGR Tasks
+
+| Dataset        | #Entities     | #Relations  | #Training      | #Valid   | #Test   | Paper |
+|:----------------:|----------:|--------:|-------------:|----------:|----------:|:--------------------------------------------------------------:|
+| NELL-One      | 68,545   | 358  | 181,109   | 285,850| 34,863 | 29,580| [link](https://doi.org/10.18653/v1/D18-1223)                          |
+| Wiki-One      | 4,868,244| 822  | 5,859,240 | 133    | 16     | 34    | [link](https://doi.org/10.18653/v1/D18-1223)                          |
+| FB15K-One     | 14,541   | 231  | 281,624   | 75     | 11     | 33    | [link](https://dl.acm.org/doi/10.1145/3484729)                        |
+
+### Datasets for Inductive KGR Tasks
+
+<table>
+  <thead>
+    <tr>
+      <th>Version</th><th>Set</th><th>#E</th><th>#R</th><th>#Tri</th><th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="6">v1</td>
+      <td>Train</td><td>2,000</td><td>183</td><td>5,226</td><td rowspan="6"><a href="https://proceedings.mlr.press/v119/teru20a.html">link</a></td>
+    </tr>
+    <tr>
+      <td>Test</td><td>1,500</td><td>146</td><td>2,404</td>
+    </tr>
+    <tr>
+      <td>Train</td><td>2,746</td><td>9</td><td>6,678</td>
+    </tr>
+    <tr>
+      <td>Test</td><td>922</td><td>9</td><td>1,991</td>
+    </tr>
+    <tr>
+      <td>Train</td><td>10,915</td><td>14</td><td>5,540</td>
+    </tr>
+    <tr>
+      <td>Test</td><td>225</td><td>14</td><td>1,034</td>
+    </tr>
+  </tbody>
+</table>
