@@ -571,3 +571,16 @@ Key characteristics of this project: unlike other outstanding review repositorie
 | YAGO3-10       | 123,143  | 37     | 1,079,040   | 4,978    | 4,982    | [link](https://www.cidrdb.org/cidr2015/Papers/CIDR15_Paper1.pdf)      |
 | YAGO37         | 123,189  | 37     | 420,623     | 50,000   | 50,000   | [link](https://doi.org/10.1609/aaai.v32i1.11535)                      |
 | NELL-995       | 75,492   | 200    | 126,176     | 5,000    | 5,000    | [link](https://doi.org/10.18653/v1/D17-1060)                          |
+
+### Datasets for Static KGR Tasks
+
+| Dataset        | #Entities     | #Relations  |  Temporal  | #Training Triples      | #Valid Triples   | #Test Triples   | Paper Link |
+|:----------------:|----------:|--------:|-------------:|----------:|----------:|:--------------------------------------------------------------:|
+| Dataset         | #Ent    | #Rel | Temp | #Train     | #Valid   | #Test    | Paper                                                              |
+|------------------|---------|------|------|------------|----------|----------|---------------------------------------------------------------------|
+| GDELT            | 7,691   | 240  | Timestemp   | 1,033,270  | 238,765  | 305,241  | [link](https://www.bibsonomy.org/bibtex/147c6cb987d60b8fac88b0293b38fe01f/asmelash?lang=en)  |
+| ICEWS14          | 6,738   | 235  | Timestemp   | 118,766    | 14,859   | 14,756   | [link](https://iclr.cc/virtual/2021/poster/3378)  |
+| ICEWS05-15       | 10,488  | 251  | Timestemp   | 386,962    | 46,092   | 46,275   | [link](https://doi.org/10.18653/v1/D18-1516)                       |
+| Wikidata12k      | 12,554  | 24   | Time Interval   | 2,735,685  | 341,961  | 341,961  | [link](https://doi.org/10.18653/v1/D18-1225)                       |
+| YAGO11k          | 10,623  | 10   | Time Interval   | 161,540    | 19,523   | 20,026   | [link](https://doi.org/10.1007/978-3-031-00123-9_10)               |
+| YAGO15k          | 15,403  | 34   | Time Interval   | 110,441    | 13,815   | 13,800   | [link](https://doi.org/10.18653/v1/D18-1516)                       |
