@@ -575,9 +575,7 @@ Key characteristics of this project: unlike other outstanding review repositorie
 ### Datasets for Static KGR Tasks
 
 | Dataset        | #Entities     | #Relations  |  Temporal  | #Training Triples      | #Valid Triples   | #Test Triples   | Paper Link |
-|:----------------:|----------:|--------:|-------------:|----------:|----------:|:--------------------------------------------------------------:|
-| Dataset         | #Ent    | #Rel | Temp | #Train     | #Valid   | #Test    | Paper                                                              |
-|------------------|---------|------|------|------------|----------|----------|---------------------------------------------------------------------|
+|:----------------:|----------:|--------:|:----------------:|-------------:|----------:|----------:|:--------------------------------------------------------------:|
 | GDELT            | 7,691   | 240  | Timestemp   | 1,033,270  | 238,765  | 305,241  | [link](https://www.bibsonomy.org/bibtex/147c6cb987d60b8fac88b0293b38fe01f/asmelash?lang=en)  |
 | ICEWS14          | 6,738   | 235  | Timestemp   | 118,766    | 14,859   | 14,756   | [link](https://iclr.cc/virtual/2021/poster/3378)  |
 | ICEWS05-15       | 10,488  | 251  | Timestemp   | 386,962    | 46,092   | 46,275   | [link](https://doi.org/10.18653/v1/D18-1516)                       |
