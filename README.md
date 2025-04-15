@@ -1,6 +1,8 @@
 # KGR-Survey
 A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and Prospects
 
+Key characteristics of this project: unlike other outstanding review repositories of the knowledge graph reasoning field, we not only provide a comprehensive review but also strive to offer the official publication abstract page for each paper. This includes not only the **official publication version of the paper** but also additional resources such as **author information**, **videos**, **datasets**, **supplementary materials**, and **BibTeX citations**.
+
 ## Survey Paper
 | Title   | Conference/Journal | Year   | Characteristic | Paper |
 | ------- | :------: | :-------: | :-------: | :-------: |
@@ -223,8 +225,6 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 
 ## Static Multi-Step KGR
 
-### Random Walk-based Models
-
 <div align="center">
   <h3><strong>Random Walk-based Models</strong></h3>
 </div>
@@ -365,7 +365,7 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 | CSProm-KG | Dipping PLMs Sauce: Bridging structure and text for effective knowledge graph completion via conditional soft prompting | Findings of ACL | 2023 | [link](https://doi.org/10.18653/v1/2023.findings-acl.729) |
 | zrLLM | zrLLM: Zero-shot relational learning on temporal knowledge graphs with large language models | NAACL | 2024 | [link](https://doi.org/10.18653/v1/2024.naacl-long.104) |
 
-### Multi-Modal KGR
+## Multi-Modal KGR
 
 <div align="center">
   <h3><strong>Multi-Modal Embedding-based Models</strong></h3>
@@ -412,7 +412,7 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 | MMKRL | MMKRL: a robust embedding approach for multi-modal knowledge graph representation learning | Applied Intelligence | 2022 | [link](https://doi.org/10.1007/s10489-021-02693-9) |
 | KoPA | Mixture of modality knowledge experts for robust multi-modal knowledge graph completion | arXiv | 2024 | [link](https://arxiv.org/abs/2405.16869) |
 
-### Few-Shot KGR
+## Few-Shot KGR
 
 <div align="center">
   <h3><strong>Metric Learning-based Models</strong></h3>
@@ -452,7 +452,7 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 | HAPZSL | HAPZSL: a hybrid attention prototype network for knowledge graph zero-shot relational learning | Neurocomputing | 2022 | [link](https://doi.org/10.1016/j.neucom.2022.07.038) |
 | OntoZSL | OntoZSL: ontology-enhanced zero-shot learning | WWW | 2021 | [link](https://doi.org/10.1145/3442381.3450042) |
 | DOZSL | Disentangled ontology embedding for zero-shot learning | IJCAI | 2018 | [link](https://doi.org/10.1145/3534678.3539453) |
-| DMoG | Decoupling mixture-of-graphs: unseen relational learning for knowledge graph completion by fusing ontology and textual experts | COLING | 2022 | 无DOI |
+| DMoG | Decoupling mixture-of-graphs: unseen relational learning for knowledge graph completion by fusing ontology and textual experts | COLING | 2022 | [link](https://aclanthology.org/2022.coling-1.196/) |
 | P-INT | P-INT: a path-based interaction model for few-shot knowledge graph completion | EMNLP Findings | 2021 | [link](https://doi.org/10.18653/v1/2021.findings-emnlp.35) |
 | EPIRL | Enhancing path information with reinforcement learning for few-shot knowledge graph completion | ICPADS | 2023 | [link](https://doi.org/10.1109/ICPADS60453.2023.00225) |
 
@@ -481,7 +481,7 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 | MetaTKGR | Learning to sample and aggregate: few-shot reasoning over temporal knowledge graphs | NeurIPS | 2022 | [link](https://proceedings.neurips.cc/paper/2022/hash/2e4b287e8e075e44bbf9a5d87f7c8ff6-Abstract.html) |
 | FITCARL | Improving few-shot inductive learning on temporal knowledge graphs using confidence-augmented reinforcement learning | Machine Learning and Knowledge Discovery in Databases | 2023 | [link](https://doi.org/10.1007/978-3-031-43418-1_33) |
 
-### Inductive KGR
+## Inductive KGR
 
 <div align="center">
   <h3><strong>Rule-based Models</strong></h3>
@@ -491,8 +491,83 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 |:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
 | GraphSAGE | Inductive representation learning on large graphs | NeurIPS | 2017 | [link](https://papers.nips.cc/paper/2017/hash/5dd9db5e033da9c6fb5ba83c7a7ebea9-Abstract.html) |
 | RuleNet | Missing-edge aware knowledge graph inductive inference through dual graph learning and traversing | Expert Systems with Applications | 2023 | [link](https://doi.org/10.1016/j.eswa.2022.118969) |
-| CBGNN | Cycle representation learning for inductive relation prediction | Proceedings of Machine Learning Research | 2022 | [link](https://proceedings.mlr.press/v162/yan22a.html) |
+| CBGNN | Cycle representation learning for inductive relation prediction | ICML | 2022 | [link](https://proceedings.mlr.press/v162/yan22a.html) |
 | RED-GNN | Knowledge graph reasoning with relational digraph | ACM Web Conference | 2022 | [link](https://doi.org/10.1145/3485447.3512008) |
 | VN | VN network: embedding newly emerging entities with virtual neighbors | CIKM | 2020 | [link](https://doi.org/10.1145/3340531.3411865) |
 | ARGCN | Inductive knowledge graph reasoning for multi-batch emerging entities | CIKM | 2022 | [link](https://doi.org/10.1145/3511808.3557361) |
 | ELPE | Explainable link prediction for emerging entities in knowledge graphs | ISWC | 2020 | [link](https://doi.org/10.1007/978-3-030-62419-4_3) |
+
+<div align="center">
+  <h3><strong>GNN-based Models</strong></h3>
+</div>
+
+| Model  | Title | Conference/Journal | Year | Paper |
+|:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
+| MEAN | Knowledge transfer for out-of-knowledge-base entities: a graph neural network approach | IJCAI | 2017 | [link](https://doi.org/10.24963/ijcai.2017/250) |
+| NBFNet | Neural Bellman-Ford networks: a general graph neural network framework for link prediction | NeurIPS | 2024 | [link](https://papers.nips.cc/paper/2021/hash/f6a673f09493afcd8b129a0bcf1cd5bc-Abstract.html) |
+| GraIL | Inductive relation prediction by subgraph reasoning | ICML | 2020 | [link](https://icml.cc/virtual/2020/poster/6618) |
+| PathCon | Relational message passing for knowledge graph completion | KDD | 2021 | [link](https://doi.org/10.1145/3447548.3467247) |
+| SNRI | Subgraph neighboring relations infomax for inductive link prediction on knowledge graphs | IJCAI | 2022 | [link](https://doi.org/10.24963/ijcai.2022/325) |
+| REPORT | Inductive relation prediction from relational paths and context with hierarchical transformers | ICASSP | 2023 | [link](https://doi.org/10.1109/ICASSP49357.2023.10096502) |
+| LogCo | Inductive relation prediction with logical reasoning using contrastive representations | EMNLP | 2022 | [link](https://doi.org/10.18653/v1/2022.emnlp-main.286) |
+| RPC-IR | Learning first-order rules with relational path contrast for inductive relation reasoning | arXiv | 2021 | [link](https://arxiv.org/abs/2110.08810) |
+| TACT | Topology-aware correlations between relations for inductive link prediction in knowledge graphs | AAAI | 2021 | [link](https://doi.org/10.1609/aaai.v35i7.16779) |
+| NRTG | Entity representation by neighboring relations topology for inductive relation prediction | PRICAI | 2022 | [link](https://doi.org/10.1007/978-3-031-20865-2_5) |
+| CoMPILE | Communicative message passing for inductive relation reasoning | AAAI | 2021 | [link](https://doi.org/10.1609/aaai.v35i5.16554) |
+| LCILP | Locality-aware subgraphs for inductive link prediction in knowledge graphs | Pattern Recognition Letters | 2023 | [link](https://doi.org/10.1016/j.patrec.2023.02.004) |
+| ReCoLe | Relation-dependent contrastive learning with cluster sampling for inductive relation prediction | Neurocomputing | 2024 | [link](https://doi.org/10.1016/j.neucom.2024.127425) |
+| DEKG-ILP | Disconnected emerging knowledge graph oriented inductive link prediction | ICDE | 2023 | [link](https://doi.org/10.1109/ICDE55515.2023.00036) |
+| CG-AGG | Exploring relational semantics for inductive knowledge graph completion | AAAI | 2022 | [link](https://doi.org/10.1609/aaai.v36i4.20337) |
+| FCLEntity-Att | Attention-based aggregation graph networks for knowledge graph information transfer | PAKDD | 2020 | [link](https://doi.org/10.1007/978-3-030-47436-2_41) |
+| SAGNN | Open-world relationship prediction | ICTAI | 2020 | [link](https://doi.org/10.1109/ICTAI50040.2020.00058) |
+| LAN | Logic attention based neighborhood aggregation for inductive knowledge graph embedding | AAAI | 2019 | [link](https://doi.org/10.1609/aaai.v33i01.33017152) |
+| SLAN | SLAN: similarity-aware aggregation network for embedding out-of-knowledge-graph entities | Neurocomputing | 2022 | [link](https://doi.org/10.1016/j.neucom.2022.03.063) |
+| ARP | Attention-based relation prediction of knowledge graph by incorporating graph and context features | WISE | 2022 | [link](https://doi.org/10.1007/978-3-031-20891-1_19) |
+| TransNS | Open knowledge graph representation learning based on neighbors and semantic affinity | Journal of Computer Research and Development | 2019 | [link](https://doi.org/10.7544/issn1000-1239.2019.20190648) |
+
+<div align="center">
+  <h3><strong>Multimodal-Enhanced Models</strong></h3>
+</div>
+
+| Model  | Title | Conference/Journal | Year | Paper |
+|:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
+| CatE | Ontological concept structure aware knowledge transfer for inductive knowledge graph embedding | IJCNN | 2021 | [link](https://doi.org/10.1109/IJCNN52387.2021.9533852) |
+| DKRL | Representation learning of knowledge graphs with entity descriptions | AAAI | 2016 | [link](https://ojs.aaai.org/index.php/AAAI/article/view/10329) |
+| OWE | An open-world extension to knowledge graph completion models | AAAI | 2019 | [link](https://doi.org/10.1609/aaai.v33i01.33013044) |
+| WOWE | Weighted aggregator for the open-world knowledge graph completion | CCIS | 2020 | [link](https://doi.org/10.1007/978-981-15-7981-3_19) |
+| Caps-OWKG | Caps-OWKG: a capsule network model for open-world knowledge graph | Int. J. Mach. Learn. & Cyber. | 2021 | [link](https://doi.org/10.1007/s13042-020-01259-4) |
+| OWE-MRC | Extracting short entity descriptions for open-world extension to knowledge graph completion models | Advances in Knowledge Science and Engineering | 2021 | [link](https://doi.org/10.1007/978-3-030-74369-0_10) |
+| OWE-RST | Relation specific transformations for open world knowledge graph completion | TextGraphs @ ACL | 2020 | [link](https://doi.org/10.18653/v1/2020.textgraphs-1.9) |
+| EmReCo | Embeddings based on relation-specific constraints for open world knowledge graph completion | Applied Intelligence | 2023 | [link](https://doi.org/10.1007/s10489-022-04247-z) |
+| ConMask | Open-world knowledge graph completion | AAAI | 2018 | [link](https://doi.org/10.1609/aaai.v32i1.11535) |
+| SDT | SDT: an integrated model for open-world knowledge graph reasoning | Expert Systems with Applications | 2020 | [link](https://doi.org/10.1016/j.eswa.2020.113889) |
+| Bi-Link | Bi-Link: bridging inductive link predictions from text via contrastive learning of transformers and prompts | arXiv | 2022 | [link](https://arxiv.org/abs/2210.14463) |
+| RAILD | RAILD: towards leveraging relation features for inductive link prediction in knowledge graphs | IJCKG | 2023 | [link](https://doi.org/10.1145/3579051.3579066) |
+| DMoG | Decoupling mixture-of-graphs: unseen relational learning for knowledge graph completion by fusing ontology and textual experts | COLING | 2022 | [link](https://aclanthology.org/2022.coling-1.196/) |
+| BERTRL | Inductive relation prediction by BERT | AAAI | 2022 | [link](https://doi.org/10.1609/aaai.v36i5.20537) |
+| InductivE | Inductive learning on commonsense knowledge graph completion | IJCNN | 2021 | [link](https://doi.org/10.1109/IJCNN52387.2021.9534355) |
+| FITCARL | Improving few-shot inductive learning on temporal knowledge graphs using confidence-augmented reinforcement learning | Machine Learning and Knowledge Discovery in Databases | 2023 | [link](https://doi.org/10.1007/978-3-031-43418-1_33) |
+| TITer | TimeTraveler: Reinforcement learning for temporal knowledge graph forecasting | EMNLP | 2021 | [link](https://doi.org/10.18653/v1/2021.emnlp-main.655) |
+| MetaTKGR | Learning to sample and aggregate: few-shot reasoning over temporal knowledge graphs | NeurIPS | 2022 | [link](https://proceedings.neurips.cc/paper/2022/hash/2e4b287e8e075e44bbf9a5d87f7c8ff6-Abstract.html) |
+| FILT | Few-shot inductive learning on temporal knowledge graphs using concept-aware information | AKBC | 2022 | [link](https://www.akbc.ws/2022/papers/6_few_shot_inductive_learning_on) |
+
+## Benchmarks
+
+### Datasets for Static KGR Tasks
+
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dataset&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        | &nbsp;#Entities&nbsp;     | &nbsp;#Relations&nbsp;   | &nbsp;#Training Triples&nbsp;      | &nbsp;#Valid Triples&nbsp;   | &nbsp;#Test Triples&nbsp;   | Paper Link |
+|:----------------:|----------:|--------:|-------------:|----------:|----------:|:--------------------------------------------------------------:|
+| Countries      | 271      | 2      | 1,110       | 24       | 24       | [link](https://aaai.org/papers/10257-10257-on-approximate-reasoning-capabilities-of-low-rank-vector-spaces/) |
+| Kinship        | 104      | 25     | 8,544       | 1,068    | 1,074    | [link](https://doi.org/10.1145/1273496.1273551)                       |
+| FB13           | 75,043   | 13     | 316,232     | 11,816   | 47,464   | [link](https://proceedings.neurips.cc/paper_files/paper/2013/hash/b337e84de8752b27eda3a12363109e80-Abstract.html) |
+| FB122          | 9,738    | 122    | 91,638      | 9,595    | 11,243   | [link](https://doi.org/10.18653/v1/D16-1019)                          |
+| FB15K          | 14,951   | 1,345  | 483,142     | 50,000   | 59,071   | [link](https://proceedings.neurips.cc/paper/2013/hash/1cecc7a77928ca8133fa24680a88d2f9-Abstract.html) |
+| FB15K237       | 14,505   | 237    | 272,115     | 17,535   | 20,466   | [link](https://doi.org/10.18653/v1/W15-4007)                          |
+| FB20K          | 19,923   | 1,452  | 378,072     | 89,040   | 90,143   | [link](https://doi.org/10.1609/aaai.v32i1.11535)                      |
+| FB5M           | 5,385,322| 1,192  | 19,193,556  | 50,000   | 50,000   | [link](https://ojs.aaai.org/index.php/AAAI/article/view/8870)         |
+| WN11           | 38,588   | 11     | 110,361     | 5,212    | 21,035   | [link](https://proceedings.neurips.cc/paper_files/paper/2013/hash/b337e84de8752b27eda3a12363109e80-Abstract.html)      |
+| WN18           | 40,943   | 18     | 141,442     | 5,000    | 5,000    | [link](https://doi.org/10.18653/v1/W15-4007)                          |
+| WN18RR         | 40,559   | 11     | 86,835      | 2,924    | 2,924    | [link](https://doi.org/10.18653/v1/W15-4007)                          |
+| YAGO3-10       | 123,143  | 37     | 1,079,040   | 4,978    | 4,982    | [link](https://www.cidrdb.org/cidr2015/Papers/CIDR15_Paper1.pdf)      |
+| YAGO37         | 123,189  | 37     | 420,623     | 50,000   | 50,000   | [link](https://doi.org/10.1609/aaai.v32i1.11535)                      |
+| NELL-995       | 75,492   | 200    | 126,176     | 5,000    | 5,000    | [link](https://doi.org/10.18653/v1/D17-1060)                          |
