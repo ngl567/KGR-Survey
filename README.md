@@ -608,28 +608,88 @@ Key characteristics of this project: unlike other outstanding review repositorie
 <table>
   <thead>
     <tr>
-      <th>Version</th><th>Set</th><th>#E</th><th>#R</th><th>#Tri</th><th>Source</th>
+      <th>Dataset</th><th>Version</th><th>Set</th><th>#E</th><th>#R</th><th>#Tri</th><th>Source</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td rowspan="6">v1</td>
-      <td>Train</td><td>2,000</td><td>183</td><td>5,226</td><td rowspan="6"><a href="https://proceedings.mlr.press/v119/teru20a.html">link</a></td>
-    </tr>
-    <tr>
-      <td>Test</td><td>1,500</td><td>146</td><td>2,404</td>
-    </tr>
-    <tr>
-      <td>Train</td><td>2,746</td><td>9</td><td>6,678</td>
-    </tr>
-    <tr>
-      <td>Test</td><td>922</td><td>9</td><td>1,991</td>
-    </tr>
-    <tr>
-      <td>Train</td><td>10,915</td><td>14</td><td>5,540</td>
-    </tr>
-    <tr>
-      <td>Test</td><td>225</td><td>14</td><td>1,034</td>
-    </tr>
+    <!-- FB15K237 -->
+    <tr><td rowspan="8">FB15K237</td><td rowspan="2">v1</td><td>Train</td><td>2,000</td><td>183</td><td>5,226</td><td rowspan="8"><a href="https://doi.org/10.5555/3454287.3455416">link</a></td></tr>
+    <tr><td>Test</td><td>1,500</td><td>146</td><td>2,404</td></tr>
+    <tr><td rowspan="2">v2</td><td>Train</td><td>3,000</td><td>203</td><td>12,085</td></tr>
+    <tr><td>Test</td><td>2,000</td><td>176</td><td>5,092</td></tr>
+    <tr><td rowspan="2">v3</td><td>Train</td><td>4,000</td><td>218</td><td>22,394</td></tr>
+    <tr><td>Test</td><td>3,000</td><td>187</td><td>9,137</td></tr>
+    <tr><td rowspan="2">v4</td><td>Train</td><td>5,000</td><td>222</td><td>33,916</td></tr>
+    <tr><td>Test</td><td>3,500</td><td>204</td><td>14,554</td></tr>
+  </tbody>
+  <tbody>
+    <!-- WN18RR -->
+    <tr><td rowspan="8">WN18RR</td><td rowspan="2">v1</td><td>Train</td><td>2,746</td><td>9</td><td>6,678</td><td rowspan="8"><a href="https://doi.org/10.5555/3454287.3455416">link</a></td></tr>
+    <tr><td>Test</td><td>922</td><td>9</td><td>1,991</td></tr>
+    <tr><td rowspan="2">v2</td><td>Train</td><td>6,954</td><td>10</td><td>18,968</td></tr>
+    <tr><td>Test</td><td>2,923</td><td>10</td><td>4,863</td></tr>
+    <tr><td rowspan="2">v3</td><td>Train</td><td>12,078</td><td>11</td><td>32,150</td></tr>
+    <tr><td>Test</td><td>5,084</td><td>11</td><td>7,470</td></tr>
+    <tr><td rowspan="2">v4</td><td>Train</td><td>3,861</td><td>9</td><td>9,842</td></tr>
+    <tr><td>Test</td><td>7,208</td><td>9</td><td>15,157</td></tr>
+  </tbody>
+    <tbody>
+    <!-- NELL-995 -->
+    <tr><td rowspan="8">NELL-995</td><td rowspan="2">v1</td><td>Train</td><td>10,915</td><td>14</td><td>5,540</td><td rowspan="8"><a href="https://doi.org/10.5555/3454287.3455416">link</a></td></tr>
+    <tr><td>Test</td><td>225</td><td>14</td><td>1,034</td></tr>
+    <tr><td rowspan="2">v2</td><td>Train</td><td>2,564</td><td>88</td><td>10,109</td></tr>
+    <tr><td>Test</td><td>4,937</td><td>79</td><td>5,521</td></tr>
+    <tr><td rowspan="2">v3</td><td>Train</td><td>4,647</td><td>142</td><td>20,117</td></tr>
+    <tr><td>Test</td><td>4,921</td><td>122</td><td>9,668</td></tr>
+    <tr><td rowspan="2">v4</td><td>Train</td><td>2,092</td><td>77</td><td>9,289</td></tr>
+    <tr><td>Test</td><td>3,294</td><td>61</td><td>8,520</td></tr>
   </tbody>
 </table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center;">Dataset</th>
+      <th style="text-align: center;">Version</th>
+      <th style="text-align: center;">Set</th>
+      <th style="text-align: right;">#E</th>
+      <th style="text-align: right;">#R</th>
+      <th style="text-align: right;">#Tri</th>
+      <th style="text-align: center;">Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- FB15K237 -->
+    <tr><td rowspan="8" style="text-align: center;">FB15K237</td><td rowspan="2" style="text-align: center;">v1</td><td style="text-align: center;">Train</td><td style="text-align: right;">2,000</td><td style="text-align: right;">183</td><td style="text-align: right;">5,226</td><td rowspan="8" style="text-align: center;"><a href="https://doi.org/10.5555/3454287.3455416">link</a></td></tr>
+    <tr><td style="text-align: center;">Test</td><td style="text-align: right;">1,500</td><td style="text-align: right;">146</td><td style="text-align: right;">2,404</td></tr>
+    <tr><td rowspan="2" style="text-align: center;">v2</td><td style="text-align: center;">Train</td><td style="text-align: right;">3,000</td><td style="text-align: right;">203</td><td style="text-align: right;">12,085</td></tr>
+    <tr><td style="text-align: center;">Test</td><td style="text-align: right;">2,000</td><td style="text-align: right;">176</td><td style="text-align: right;">5,092</td></tr>
+    <tr><td rowspan="2" style="text-align: center;">v3</td><td style="text-align: center;">Train</td><td style="text-align: right;">4,000</td><td style="text-align: right;">218</td><td style="text-align: right;">22,394</td></tr>
+    <tr><td style="text-align: center;">Test</td><td style="text-align: right;">3,000</td><td style="text-align: right;">187</td><td style="text-align: right;">9,137</td></tr>
+    <tr><td rowspan="2" style="text-align: center;">v4</td><td style="text-align: center;">Train</td><td style="text-align: right;">5,000</td><td style="text-align: right;">222</td><td style="text-align: right;">33,916</td></tr>
+    <tr><td style="text-align: center;">Test</td><td style="text-align: right;">3,500</td><td style="text-align: right;">204</td><td style="text-align: right;">14,554</td></tr>
+  </tbody>
+  <tbody>
+    <!-- WN18RR -->
+    <tr><td rowspan="8" style="text-align: center;">WN18RR</td><td rowspan="2" style="text-align: center;">v1</td><td style="text-align: center;">Train</td><td style="text-align: right;">2,746</td><td style="text-align: right;">9</td><td style="text-align: right;">6,678</td><td rowspan="8" style="text-align: center;"><a href="https://doi.org/10.5555/3454287.3455416">link</a></td></tr>
+    <tr><td style="text-align: center;">Test</td><td style="text-align: right;">922</td><td style="text-align: right;">9</td><td style="text-align: right;">1,991</td></tr>
+    <tr><td rowspan="2" style="text-align: center;">v2</td><td style="text-align: center;">Train</td><td style="text-align: right;">6,954</td><td style="text-align: right;">10</td><td style="text-align: right;">18,968</td></tr>
+    <tr><td style="text-align: center;">Test</td><td style="text-align: right;">2,923</td><td style="text-align: right;">10</td><td style="text-align: right;">4,863</td></tr>
+    <tr><td rowspan="2" style="text-align: center;">v3</td><td style="text-align: center;">Train</td><td style="text-align: right;">12,078</td><td style="text-align: right;">11</td><td style="text-align: right;">32,150</td></tr>
+    <tr><td style="text-align: center;">Test</td><td style="text-align: right;">5,084</td><td style="text-align: right;">11</td><td style="text-align: right;">7,470</td></tr>
+    <tr><td rowspan="2" style="text-align: center;">v4</td><td style="text-align: center;">Train</td><td style="text-align: right;">3,861</td><td style="text-align: right;">9</td><td style="text-align: right;">9,842</td></tr>
+    <tr><td style="text-align: center;">Test</td><td style="text-align: right;">7,208</td><td style="text-align: right;">9</td><td style="text-align: right;">15,157</td></tr>
+  </tbody>
+  <tbody>
+    <!-- NELL-995 -->
+    <tr><td rowspan="8" style="text-align: center;">NELL-995</td><td rowspan="2" style="text-align: center;">v1</td><td style="text-align: center;">Train</td><td style="text-align: right;">10,915</td><td style="text-align: right;">14</td><td style="text-align: right;">5,540</td><td rowspan="8" style="text-align: center;"><a href="https://doi.org/10.5555/3454287.3455416">link</a></td></tr>
+    <tr><td style="text-align: center;">Test</td><td style="text-align: right;">225</td><td style="text-align: right;">14</td><td style="text-align: right;">1,034</td></tr>
+    <tr><td rowspan="2" style="text-align: center;">v2</td><td style="text-align: center;">Train</td><td style="text-align: right;">2,564</td><td style="text-align: right;">88</td><td style="text-align: right;">10,109</td></tr>
+    <tr><td style="text-align: center;">Test</td><td style="text-align: right;">4,937</td><td style="text-align: right;">79</td><td style="text-align: right;">5,521</td></tr>
+    <tr><td rowspan="2" style="text-align: center;">v3</td><td style="text-align: center;">Train</td><td style="text-align: right;">4,647</td><td style="text-align: right;">142</td><td style="text-align: right;">20,117</td></tr>
+    <tr><td style="text-align: center;">Test</td><td style="text-align: right;">4,921</td><td style="text-align: right;">122</td><td style="text-align: right;">9,668</td></tr>
+    <tr><td rowspan="2" style="text-align: center;">v4</td><td style="text-align: center;">Train</td><td style="text-align: right;">2,092</td><td style="text-align: right;">77</td><td style="text-align: right;">9,289</td></tr>
+    <tr><td style="text-align: center;">Test</td><td style="text-align: right;">3,294</td><td style="text-align: right;">61</td><td style="text-align: right;">8,520</td></tr>
+  </tbody>
+</table>
+
