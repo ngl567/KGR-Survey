@@ -225,9 +225,7 @@ Key characteristics of this project: unlike other outstanding review repositorie
 
 ## Static Multi-Step KGR
 
-<div align="center">
-  <h3><strong>Random Walk-based Models</strong></h3>
-</div>
+### Random Walk-based Model
 
 | Model  | Title | Conference/Journal | Year | Paper |
 |:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
@@ -241,9 +239,7 @@ Key characteristics of this project: unlike other outstanding review repositorie
 | SFE | Efficient and expressive knowledge base completion using subgraph feature extraction | EMNLP | 2015 | [link](https://doi.org/10.18653/v1/D15-1173) |
 | PathCon | Relational message passing for knowledge graph completion | KDD | 2021 | [link](https://doi.org/10.1145/3447548.3467247) |
 
-<div align="center">
-  <h3><strong>Reinforcement Learning-based Models</strong></h3>
-</div>
+### Reinforcement Learning-based Model
 
 | Model  | Title | Conference/Journal | Year | Paper |
 |:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
@@ -256,9 +252,7 @@ Key characteristics of this project: unlike other outstanding review repositorie
 | AttnPath  | Incorporating graph attention mechanism into knowledge graph reasoning based on deep reinforcement learning | EMNLP-IJCNLP | 2019 | [link](https://doi.org/10.18653/v1/D19-1264) |
 | DIVINE  | DIVINE: A generative adversarial imitation learning framework for knowledge graph reasoning | EMNLP-IJCNLP | 2019 | [link](https://doi.org/10.18653/v1/D19-1266) |
 
-<div align="center">
-  <h3><strong>LLM-based Multi-Step KGR Models</strong></h3>
-</div>
+### LLM-based Multi-Step KGR Model
 
 | Model  | Title | Conference/Journal | Year | Paper |
 |:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
