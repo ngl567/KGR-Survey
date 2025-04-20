@@ -314,6 +314,7 @@ Key characteristics of this project: unlike other outstanding review repositorie
 |:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
 | Know-Evolve  | Know-evolve: deep temporal reasoning for dynamic knowledge graphs | ICML  | 2017 | [link](https://proceedings.mlr.press/v70/trivedi17a.html) |
 | RE-NET  | Recurrent event network: autoregressive structure inference over temporal knowledge graphs | EMNLP | 2020 | [link](https://aclanthology.org/2020.emnlp-main.541/) |
+| EvolveRGCN | EvolveGCN: Evolving Graph Convolutional Networks for Dynamic Graphs | AAAI | 2020 | [link](https://arxiv.org/abs/1902.10191)
 | CyGNet  | Learning from history: modeling temporal knowledge graphs with sequential copy-generation networks | AAAI  | 2021 | [link](https://ojs.aaai.org/index.php/AAAI/article/view/16604) |
 | CluSTeR  | Search from history and reason for future: two-stage reasoning on temporal knowledge graphs | ACL   | 2021 | [link](https://aclanthology.org/2021.acl-long.365/) |
 
