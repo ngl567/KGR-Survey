@@ -942,7 +942,6 @@ The comprehensive overview framework of our survey is presented as following. Th
 | MMRG  | Multi-modal relational graph for cross-modal video moment retrieval | CVPR | 2021 | [link](https://doi.org/10.1109/CVPR46437.2021.00225) |
 | IRGR | Multiple instance relation graph reasoning for cross-modal hash retrieval | Knowledge-Based Systems | 2022 | [link](https://doi.org/10.1016/j.knosys.2022.109891) |
 
-
 <div align="center">
   <h3><strong>Scene Graph Generation</strong></h3>
 </div>
@@ -953,3 +952,77 @@ The comprehensive overview framework of our survey is presented as following. Th
 | HiKER-SGG | HiKER-SGG: Hierarchical knowledge enhanced robust scene graph generation | CVPR | 2024 | [link](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_HiKER-SGG_Hierarchical_Knowledge_Enhanced_Robust_Scene_Graph_Generation_CVPR_2024_paper.html) |
 | CGR | Configurable graph reasoning for visual relationship detection | TNNLS | 2022 | [link](https://doi.org/10.1109/TNNLS.2020.3027575) |
 | COACHER | Zero-shot scene graph relation prediction through commonsense knowledge integration | ECML PKDD | 2021 | [link](https://doi.org/10.1007/978-3-030-86520-7_29) |
+
+### Healthcare Domain
+
+| Model | Title | Conference/Journal | Year | Paper |
+|:-----:|-------|:------------------:|:----:|:-----:|
+| Zhu et al.     | Multimodal reasoning based on knowledge graph embedding for specific diseases              | Bioinformatics                 | 2022 | [link](https://doi.org/10.1093/bioinformatics/btac085) |
+| Chai et al.      | Diagnosis method of thyroid disease combining knowledge graph and deep learning            | IEEE Access                    | 2020 | [link](https://doi.org/10.1109/ACCESS.2020.3016676) |
+| SSI-DDI   | SSI-DDI: substructure-substructure interactions for drug-drug interaction prediction       | Brief. Bioinform.              | 2021 | [link](https://doi.org/10.1093/bib/bbab133) |
+| KGNN      | KGNN: knowledge graph neural network for drug-drug interaction prediction                  | IJCAI                          | 2020 | [link](https://doi.org/10.24963/ijcai.2020/380) |
+| SMR       | SMR: medical knowledge graph embedding for safe medicine recommendation                    | Big Data Res.                  | 2021 | [link](https://doi.org/10.1016/j.bdr.2020.100174) |
+| PharmKG   | PharmKG: a dedicated knowledge graph benchmark for biomedical data mining                  | Brief. Bioinform.              | 2021 | [link](https://doi.org/10.1093/bib/bbaa344) |
+| KG-Predict| KG-Predict: a knowledge graph computational framework for drug repurposing                 | J. Biomed. Inform.             | 2022 | [link](https://doi.org/10.1016/j.jbi.2022.104133) |
+
+### Business Domain
+
+| Model | Title | Conference/Journal | Year | Paper |
+|:-----:|-------|:------------------:|:----:|:-----:|
+| OpenBG   | Construction and applications of billion-scale pre-trained multimodal business knowledge graph| ICDE  | 2023 | [link](https://doi.org/10.1109/ICDE55515.2023.00229) |
+| Zhang et al.  | Knowledge graph embedding in e-commerce applications: attentive reasoning, explanations, and transferable rules | Int. Joint Conf. on Knowledge Graphs | 2021 | [link](https://doi.org/10.1145/3502223.3502232) |
+| Yang et al.     | Inferring substitutable and complementary products with knowledge-aware path reasoning based on dynamic policy network | Knowledge-Based Syst. | 2022 | [link](https://doi.org/10.1016/j.knosys.2021.107579) |
+| Mitropoulou et al.     | Anomaly detection in cloud computing using knowledge graph embedding and machine learning mechanisms | J. Grid Comput. | 2024 | [link](https://doi.org/10.1007/s10723-023-09727-1) |
+| Kosasih et al.   | Towards knowledge graph reasoning for supply chain risk management using graph neural networks | Int. J. Prod. Res. | 2022 | [link](https://econpapers.repec.org/article/taftprsxx/v_3a62_3ay_3a2024_3ai_3a15_3ap_3a5596-5612.htm) |
+| Yang et al.    | Research on enterprise risk knowledge graph based on multi-source data fusion  | Neural Comput. Appl.  | 2022 | [link](https://doi.org/10.1007/s00521-021-05985-w) |
+| Zhang et al.  | Billion-scale pre-trained e-commerce product knowledge graph model | ICDE | 2021 | [link](https://doi.org/10.1109/ICDE51399.2021.00280) |
+
+### Cybersecurity Domain
+
+| Model | Title | Conference/Journal | Year | Paper |
+|:-----:|-------|:------------------:|:----:|:-----:|
+| Sikos    | Cybersecurity knowledge graphs                                                              | Knowl. Inf. Syst.                  | 2023 | [link](https://doi.org/10.1007/s10115-023-01860-3) |
+| Ezekia Gilliard et al.  | Cybersecurity knowledge graph enabled attack chain detection for cyber-physical systems     | Computers and Electrical Engineering | 2023 | [link](https://doi.org/10.1016/j.compeleceng.2023.108660) |
+| Hu et al.   | Knowledge graph reasoning for cyber attack detection                                        | IET Commun.                        | 2024 | [link](https://doi.org/10.1049/cmu2.12736) |
+
+### Other Domain
+
+| Model | Title | Conference/Journal | Year | Paper |
+|:-----:|-------|:------------------:|:----:|:-----:|
+| Liang et al. | Graph path fusion and reinforcement reasoning for recommendation in MOOCs                                                   | Educ. Inf. Technol.                   | 2023 | [link](https://doi.org/10.1007/s10639-022-11178-2) |
+| Zhou et al.   | Mining tourist preferences and decision support via tourism-oriented knowledge graph                                         | Inf. Process. Manag.                  | 2024 | [link](https://doi.org/10.1016/j.ipm.2023.103523) |
+| Gao et al. | Hierarchical knowledge graph learning enabled socioeconomic indicator prediction in location-based social network           | The Web Conference (WWW)              | 2023 | [link](https://doi.org/10.1145/3543507.3583239) |
+| Zeng et al. | Combining knowledge graph into metro passenger flow prediction: a split-attention relational graph convolutional network     | Expert Syst. Appl.                    | 2023 | [link](https://doi.org/10.1016/j.eswa.2022.118790) |
+| Liu et al. | Multi-source knowledge graph reasoning for ocean oil spill detection from satellite SAR images                              | Int. J. Appl. Earth Obs. Geoinf.      | 2023 | [link](https://doi.org/10.1016/j.jag.2022.103153) |
+
+## Challenge and Opportunity
+
+### Sparse KGR
+
+| Model | Title | Conference/Journal | Year | Paper |
+|:-----:|-------|:------------------:|:----:|:-----:|
+| HoGRN      | HoGRN: explainable sparse knowledge graph completion via high-order graph reasoning network | IEEE Trans. on Knowledge and Data Engineering       | 2024 | [link](https://doi.org/10.1109/TKDE.2024.3422226) |
+| Jia et al.    | Application of graph neural network and feature information enhancement in relation inference of sparse knowledge graph | Journal of Electronic Science and Technology        | 2023 | [link](https://doi.org/10.1016/j.jnlest.2023.100194) |
+| KRACL      | KRACL: contrastive learning with graph context modeling for sparse knowledge graph completion | The Web Conference (WWW)                            | 2023 | [link](https://doi.org/10.1145/3543507.3583412) |
+| BERT-ConvE  | Effective use of BERT in graph embeddings for sparse knowledge graph completion | ACM/SIGAPP Symposium on Applied Computing (SAC)     | 2022 | [link](https://doi.org/10.1145/3477314.3507031) |
+| DacKGR        | Dynamic anticipation and completion for multi-hop reasoning over sparse knowledge graph | EMNLP                                               | 2020 | [link](https://doi.org/10.18653/v1/2020.emnlp-main.459) |
+| RuMER-RL   | RuMER-RL: a hybrid framework for sparse knowledge graph explainable reasoning | Information Sciences                                 | 2024 | [link](https://doi.org/10.1016/j.ins.2024.121144) |
+| WAR | Walk-and-relate: a random-walk-based algorithm for representation learning on sparse knowledge graphs | arXiv preprint                                      | 2022 | [link](https://arxiv.org/abs/2209.08769) |
+
+### Uncertain KGR
+
+| Model | Title | Conference/Journal | Year | Paper |
+|:-----:|-------|:------------------:|:----:|:-----:|
+| BEUrRE        | Probabilistic box embeddings for uncertain knowledge graph reasoning                      | NAACL-HLT                                                                | 2021 | [link](https://doi.org/10.18653/v1/2021.naacl-main.68) |
+| SUKE        | SUKE: embedding model for prediction in uncertain knowledge graph                         | IEEE Access                                                              | 2021 | [link](https://doi.org/10.1109/ACCESS.2020.3047086) |
+| MUKGE   | Embedding uncertain knowledge graphs                                                       | AAAI                                                                     | 2019 | [link](https://doi.org/10.1609/aaai.v33i01.33013363) |
+| UKRM    | Uncertain knowledge graph completion with rule mining                                     | Web Information Systems and Applications                                | 2024 | [link](https://doi.org/10.1007/978-981-97-7707-5_9) |
+| TensorLog   | Tensorlog: a differentiable deductive database    | arXiv preprint                                                           | 2016 | [link](https://arxiv.org/abs/1605.06523) |
+
+### KG Error Detection
+
+| Model | Title | Conference/Journal | Year | Paper |
+|:-----:|-------|:------------------:|:----:|:-----:|
+| CKG-ED        | Contrastive knowledge graph error detection                                                             | CIKM                                        | 2022 | [link](https://doi.org/10.1145/3511808.3557264) |
+| CAGED        | What is normal, what is strange, and what is missing in a knowledge graph: unified characterization via inductive summarization | WWW                                         | 2020 | [link](https://doi.org/10.1145/3366423.3380189) |
+| HEAR      | Knowledge graph error detection with hierarchical path structure                                        | CIKM                                        | 2023 | [link](https://doi.org/10.1145/3583780.3615201) |
