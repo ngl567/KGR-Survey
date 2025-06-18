@@ -1,11 +1,37 @@
 # KGR-Survey
-A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and Prospects
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/ngl567/KGR-Survey)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/ngl567/KGR-Survey/blob/main/LICENSE)
+[![preprint](https://img.shields.io/badge/arxiv-2506.11012-EE4C2C)](https://arxiv.org/abs/2506.11012)
+![](https://img.shields.io/github/last-commit/ngl567/KGR-Survey?color=blue)
 
-Key characteristics of this project: unlike other outstanding review repositories of the knowledge graph reasoning field, we not only provide a comprehensive review but also strive to offer the official publication abstract page for each paper. This includes not only the **official publication version of the paper** but also additional resources such as **author information**, **videos**, **datasets**, **supplementary materials**, and **BibTeX citations**.
+A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and Prospects [Paper](https://arxiv.org/pdf/2506.11012)
+
+>**🙌Key characteristics of this repository**: unlike other outstanding review repositories of the knowledge graph reasoning field, we not only provide a comprehensive review but also strive to offer the official publication abstract page for each paper. This includes not only the **official publication version of the paper** but also additional resources such as **author information**, **videos**, **datasets**, **supplementary materials**, and **BibTeX citations**.
+
+If this repository is useful for you, please kindly cite the corresponding survey paper:
+```
+@article{niu2025kgcsurvey,
+      title={A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and Prospects}, 
+      author={Guanglin Niu and Bo Li and Yangguang Lin},
+      year={2025},
+      journal={CoRR},
+      volume={abs/2506.11012}
+}
+```
+
+The comprehensive overview framework of our survey is presented as following. The same number (①-⑨) indicates that different approaches share similar ideas, and the keywords corresponding to each number are provided at the bottom of the figure.
+<img src="./figures/framework.jpg" title="Framework of This Survey">
+
+<details>
+   <summary> The illustration of the six primary KGR tasks </summary>
+   
+![Illustration of primary KGR tasks](./figures/KGR.jpg)
+</details>
 
 ## Survey Paper
 | Title   | Conference/Journal | Year   | Characteristic | Paper |
 | ------- | :------: | :-------: | :-------: | :-------: |
+| A survey of task-oriented knowledge graph reasoning: status, applications, and prospects | arXiv | 2025  |  Task-oriented KGR | [link](https://arxiv.org/abs/2506.11012)
 | Knowledge graph embedding: a survey from the perspective of representation spaces | ACM Computer Survey | 2024  | Embedding Spaces| [link](https://dl.acm.org/doi/abs/10.1145/3643806)
 | A survey of knowledge graph reasoning on graph types: Static, dynamic, and multi-modal | IEEE TPAMI | 2024 | Graph Types | [link](https://ieeexplore.ieee.org/document/10577554)
 | Negative sampling in knowledge graph representation learning: a review | arXiv | 2024 | Negative Sampling | [link](https://arxiv.org/abs/2402.19195)
@@ -20,6 +46,12 @@ Key characteristics of this project: unlike other outstanding review repositorie
 
 ## Static Single-Step KGR
 ### KGE-based KGR Model
+
+<details>
+   <summary> The illustration of five representative KGE models </summary>
+   
+![Illustration of primary KGR tasks](./figures/KGE.jpg)
+</details>
 
 <div align="center">
   <h3><strong>Translation or Tensor Decomposition-Based KGE Models</strong></h3>
@@ -132,6 +164,12 @@ Key characteristics of this project: unlike other outstanding review repositorie
   <h3><strong>Negative Sampling for KGE</strong></h3>
 </div>
 
+<details>
+   <summary> The illustration of six types of negative sampling strategies </summary>
+   
+![Illustration of negative sampling strategies](./figures/NS.jpg)
+</details>
+
 | Model  | Title | Conference/Journal | Year | Paper |
 |:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
 | Local Closed-World Assumption | Knowledge Vault: A web scale approach to probabilistic knowledge fusion | KDD | 2014 | [link](https://doi.org/10.1145/2623330.2623623) |
@@ -223,6 +261,12 @@ Key characteristics of this project: unlike other outstanding review repositorie
 | UniKER | UniKER: A unified framework for combining embedding and definite Horn rule reasoning for knowledge graph inference | EMNLP | 2021 | [link](https://doi.org/10.18653/v1/2021.emnlp-main.769) |
 | EngineKG | Perform like an engine: A closed-loop neural-symbolic learning framework for knowledge graph inference | COLING | 2022 | [link](https://aclanthology.org/2022.coling-1.119/) |
 
+<details>
+   <summary> Taxonomy of static single-step KGR approaches </summary>
+   
+![Single-step KGR](./figures/single-step.jpg)
+</details>
+
 ## Static Multi-Step KGR
 
 ### Random Walk-based Model
@@ -267,8 +311,20 @@ Key characteristics of this project: unlike other outstanding review repositorie
 | AgentTuning | AgentTuning: Enabling generalized agent abilities for LLMs | Findings of ACL | 2024 | [link](https://doi.org/10.18653/v1/2024.findings-acl.181) |
 | Glam | Glam: Fine-tuning large language models for domain knowledge graph alignment via neighborhood partitioning and generative subgraph encoding | AAAI Symposium | 2024 | [link](https://ojs.aaai.org/index.php/AAAI-SS/article/view/31186) |
 
+<details>
+   <summary> Taxonomy of static multi-step KGR approaches </summary>
+   
+![Multi-step KGR](./figures/multi-step.jpg)
+</details>
+
 ## Dynamic KGR
 ### Incremental KGE Model
+
+<details>
+   <summary> The illustration of the dynamic KGR task </summary>
+   
+![Dynamic KGR](./figures/dynamicKGR.jpg)
+</details>
 
 | Model  | Title | Conference/Journal | Year | Paper |
 |:-----:|---------------------------------|:---------------------------------:|:------:|:------:|
@@ -352,6 +408,12 @@ Key characteristics of this project: unlike other outstanding review repositorie
 | CSProm-KG | Dipping PLMs Sauce: Bridging structure and text for effective knowledge graph completion via conditional soft prompting | Findings of ACL | 2023 | [link](https://doi.org/10.18653/v1/2023.findings-acl.729) |
 | zrLLM | zrLLM: Zero-shot relational learning on temporal knowledge graphs with large language models | NAACL | 2024 | [link](https://doi.org/10.18653/v1/2024.naacl-long.104) |
 
+<details>
+   <summary> Taxonomy of dynamic KGR approaches </summary>
+   
+![Dynamic KGR](./figures/dynamic.jpg)
+</details>
+
 ## Multi-Modal KGR
 
 ### Multi-Modal Embedding-based Model
@@ -372,7 +434,7 @@ Key characteristics of this project: unlike other outstanding review repositorie
 | MKBE | Embedding multimodal relational data for knowledge base completion | EMNLP | 2018 | [link](https://doi.org/10.18653/v1/D18-1359) |
 | MMKGR | MMKGR: multi-hop multi-modal knowledge graph reasoning | ICDE | 2022 | [link](https://doi.org/10.1109/ICDE55515.2023.00015) |
 | NativE | NativE: Multi-modal knowledge graph completion in the wild | SIGIR | 2024 | [link](https://doi.org/10.1145/3626772.3657800) |
-|TransFusion88 | TransFusion: Multi-modal fusion for video tag inference via translation-based knowledge embedding | ACM MM | 2021 | [link](https://doi.org/10.1145/3474085.3481535) |
+|TransFusion | TransFusion: Multi-modal fusion for video tag inference via translation-based knowledge embedding | ACM MM | 2021 | [link](https://doi.org/10.1145/3474085.3481535) |
 | MoSE | MoSE: modality split and ensemble for multimodal knowledge graph completion | EMNLP | 2022 | [link](https://doi.org/10.18653/v1/2022.emnlp-main.719) |
 | IMF | IMF: interactive multimodal fusion model for link prediction | WWW | 2023 | [link](https://doi.org/10.1145/3543507.3583554) |
 | MMRNS | Relation-enhanced negative sampling for multimodal knowledge graph completion | ACM MM | 2022 | [link](https://doi.org/10.1145/3503161.3548388) |
@@ -395,7 +457,19 @@ Key characteristics of this project: unlike other outstanding review repositorie
 | MMKRL | MMKRL: a robust embedding approach for multi-modal knowledge graph representation learning | Applied Intelligence | 2022 | [link](https://doi.org/10.1007/s10489-021-02693-9) |
 | KoPA | Mixture of modality knowledge experts for robust multi-modal knowledge graph completion | arXiv | 2024 | [link](https://arxiv.org/abs/2405.16869) |
 
+<details>
+   <summary> Taxonomy of multi-modal KGR approaches </summary>
+   
+![MM KGR](./figures/mmkgr.jpg)
+</details>
+
 ## Few-Shot KGR
+
+<details>
+   <summary> The illustration of few-shot KGR in the 3-shot setting </summary>
+   
+![FSKGR](./figures/FSKGRtask.jpg)
+</details>
 
 ### Metric Learning-based Model
 
@@ -454,7 +528,19 @@ Key characteristics of this project: unlike other outstanding review repositorie
 | MetaTKGR | Learning to sample and aggregate: few-shot reasoning over temporal knowledge graphs | NeurIPS | 2022 | [link](https://proceedings.neurips.cc/paper/2022/hash/2e4b287e8e075e44bbf9a5d87f7c8ff6-Abstract.html) |
 | FITCARL | Improving few-shot inductive learning on temporal knowledge graphs using confidence-augmented reinforcement learning | Machine Learning and Knowledge Discovery in Databases | 2023 | [link](https://doi.org/10.1007/978-3-031-43418-1_33) |
 
+<details>
+   <summary> Taxonomy of few-shot KGR approaches </summary>
+   
+![FSKGR](./figures/fskgr.jpg)
+</details>
+
 ## Inductive KGR
+
+<details>
+   <summary> The illustration of inductive KGR </summary>
+   
+![IKGR](./figures/IKGR.jpg)
+</details>
 
 ### Rule-based Model
 
@@ -517,6 +603,12 @@ Key characteristics of this project: unlike other outstanding review repositorie
 | TITer | TimeTraveler: Reinforcement learning for temporal knowledge graph forecasting | EMNLP | 2021 | [link](https://doi.org/10.18653/v1/2021.emnlp-main.655) |
 | MetaTKGR | Learning to sample and aggregate: few-shot reasoning over temporal knowledge graphs | NeurIPS | 2022 | [link](https://proceedings.neurips.cc/paper/2022/hash/2e4b287e8e075e44bbf9a5d87f7c8ff6-Abstract.html) |
 | FILT | Few-shot inductive learning on temporal knowledge graphs using concept-aware information | AKBC | 2022 | [link](https://www.akbc.ws/2022/papers/6_few_shot_inductive_learning_on) |
+
+<details>
+   <summary> Taxonomy of inductive KGR approaches </summary>
+   
+![IKGR](./figures/inductive.jpg)
+</details>
 
 ## Benchmarks
 
@@ -762,3 +854,102 @@ Key characteristics of this project: unlike other outstanding review repositorie
 |:------------:|----------:|------------:|----------------------:|---------------:|:----------:|
 | DBPedia50k   | 24,624   | 351  | 32,388             | 6,459          | [link](10.1609/aaai.v32i1.11535) |
 | Wikidata5M   | 4,579,609| 822  | 20,496,514         | 6,894          | [link](10.1162/tacl_a_00360)     |
+
+## Applications
+
+### Question Answering
+
+<details>
+   <summary> Illustrative examples of the KGR technique applied to QA systems </summary>
+   
+![QA](./figures/QA.jpg)
+</details>
+
+| Model | Title | Conference/Journal | Year | Paper |
+|:-----:|-------|:------------------:|:----:|:-----:|
+| KBQA Survey | A survey: complex knowledge base question answering | IEEE ICICSE | 2022 | [link](https://doi.org/ICICSE55337.2022.9828967) |
+| KEQA | Knowledge graph embedding based question answering | ACM WSDM | 2019 | [link](https://doi.org/10.1145/3289600.3290956) |
+| TRL-KEQA | Question answering over knowledge base embeddings with triples representation learning | Neural Information Processing | 2021 | [link](https://doi.org/978-3-030-92307-5_89) |
+| TransE-QA | Knowledge base question answering system based on knowledge graph representation learning | ACM ICIAI | 2020 | [link](https://doi.org/3390557.3394296) |
+| CAPKGQA | Complex question answering over incomplete knowledge graph as n-ary link prediction | IEEE IJCNN | 2022 | [link](https://doi.org/IJCNN55064.2022.9892700) |
+| EmbedKGQA | Improving multi-hop question answering over knowledge graphs using knowledge base embeddings | ACL | 2020 | [link](https://doi.org/2020.acl-main.412) |
+| PKEEQA | Path-enhanced multi-relational question answering with knowledge graph embeddings | arXiv | 2021 | [link](https://doi.org/10.48550/arXiv.2110.15622) |
+| PA-KGQA | Path-aware multi-hop question answering over knowledge graph embedding | IEEE ICTAI | 2022 | [link](https://doi.org/10.1109/ICTAI56018.2022.00074) |
+| HamQA | Hierarchy-aware multi-hop question answering over knowledge graphs | ACM Web Conference | 2023 | [link](https://doi.org/10.1145/3543507.3583376) |
+| BRGNN | Query path generation via bidirectional reasoning for multihop question answering from knowledge bases | IEEE TCDS | 2023 | [link](https://doi.org/10.1109/TCDS.2022.3198272) |
+| GRRN | Implicit relation inference with deep path extraction for commonsense question answering | Neural Processing Letters | 2022 | [link](https://doi.org/10.1007/s11063-022-10831-8) |
+| Li et al. | Translational relation embeddings for multi-hop knowledge base question answering | Web Semantics | 2022 | [link](https://doi.org/10.1016/j.websem.2022.100723) |
+| DSSAGN | Knowledge graph multi-hop question answering based on dependent syntactic semantic augmented graph networks | Electronics | 2024 | [link](https://doi.org/10.3390/electronics130814361) |
+| Jiao et al. | A relation embedding assistance networks for multi-hop question answering | ACM TALIP | 2024 | [link](https://doi.org/10.1145/3635114) |
+| Zhou et al. | Marie and BERT – a knowledge graph embedding based question answering system for chemistry | ACS Omega | 2023 | [link](https://doi.org/10.1021/acsomega.3c05114) |
+| CF-KGQA | Causality-aware enhanced model for multi-hop question answering over knowledge graphs | Knowledge-Based Systems | 2022 | [link](https://doi.org/10.1016/j.knosys.2022.108943) |
+| TwiRGCN | TwiRGCN: Temporally Weighted Graph Convolution for Question Answering over Temporal Knowledge Graphs | EACL | 2023 | [link](https://doi.org/10.18653/v1/2023.eacl-main.150) |
+| CRONKGQA | Question answering over temporal knowledge graphs | ACL-IJCNLP | 2021 | [link](https://doi.org/10.18653/v1/2021.acl-long.520) |
+| TempoQR | TempoQR: Temporal question reasoning over knowledge graphs | AAAI | 2021 | [link](https://doi.org/10.1609/aaai.v36i5.20526) |
+| CTRN | An improving reasoning network for complex question answering over temporal knowledge graphs | Applied Intelligence | 2022 | [link](https://doi.org/10.1007/s10489-022-03913-6) |
+| EXAQT | Complex temporal question answering on knowledge graphs | ACM CIKM | 2021 | [link](https://doi.org/10.1145/3459637.3482416) |
+| GATQR | Temporal knowledge graph question answering models enhanced with GAT | IEEE BigData | 2023 | [link](https://doi.org/10.1109/BigData59044.2023.10386891) |
+| Prog-TQA | Self-improvement programming for temporal knowledge graph question answering | LREC-COLING | 2024 | [link](https://aclanthology.org/2024.lrec-main.1270/) | 
+| GenTKGQA | Two-stage generative question answering on temporal knowledge graph using large language models | ACL Findings | 2024 | [link](https://doi.org/10.18653/v1/2024.findings-acl.500) |
+
+### Recommendation
+
+| Model | Title | Conference/Journal | Year | Paper |
+|:-----:|-------|:------------------:|:----:|:-----:|
+| KGCN      | Knowledge graph convolutional networks for recommender systems | WWW | 2019 | [link](https://doi.org/10.1145/3308558.3313417) |
+| KGNCF-RRN      | Neural collaborative recommendation with knowledge graph | IEEE ICKG | 2020 | [link](https://doi.org/10.1109/ICBK50248.2020.00038) |
+| KGECF      | Knowledge graph embedding based collaborative filtering | IEEE Access | 2020 | [link](https://doi.org/10.1109/ACCESS.2020.3011105) |
+| Survey    | A review of explainable recommender systems utilizing knowledge graphs and reinforcement learning | IEEE Access | 2024 | [link](https://doi.org/10.1109/ACCESS.2024.3422416) |
+|  PGPR    | Reinforcement knowledge graph reasoning for explainable recommendation | SIGIR | 2019 | [link](https://doi.org/10.1145/3331186.3331203) |
+| CogER    | Cognition-aware knowledge graph reasoning for explainable recommendation | WSDM | 2023 | [link](https://doi.org/10.1145/3539597.3570391) |
+| Hsu et al.     | Explainable mutual fund recommendation system developed based on knowledge graph embeddings | Applied Intelligence | 2022 | [link](https://doi.org/10.1007/s10489-021-03136-1) |
+| Lee et al. | GCN-based explainable recommendation using a knowledge graph and a language model | IEEE BigData | 2023 | [link](https://doi.org/10.1109/BigData59044.2023.10386124) |
+| Markchom et al.| Explainable meta-path based recommender systems | ACM TORS | 2023 | [link](https://doi.org/10.1145/3625828) |
+| Fu et al.   | Fairness-aware explainable recommendation over knowledge graphs | SIGIR | 2020 | [link](https://doi.org/10.1145/3397271.3401051) |
+| KRRL  | Knowledge-aware reasoning with self-supervised reinforcement learning for explainable recommendation in MOOCs | Neural Computing and Applications | 2024 | [link](https://doi.org/10.1007/s00521-023-09257-7) |
+| Ryotaro et al.  | An explainable recommendation framework based on an improved knowledge graph attention network with massive volumes of side information | Knowledge-Based Systems | 2022 | [link](https://doi.org/10.1016/j.knosys.2021.107970) |
+| RippleNet | RippleNet: propagating user preferences on the knowledge graph for recommender systems | CIKM | 2018 | [link](https://doi.org/10.1145/3269206.3271739) |
+| AKUPM     | AKUPM: attention-enhanced knowledge-aware user preference model for recommendation | KDD | 2019 | [link](https://doi.org/10.1145/3292500.3330705) |
+| RCoLM  | Unifying task-oriented knowledge graph learning and recommendation | IEEE Access | 2019 | [link](https://doi.org/10.1109/ACCESS.2019.2932466) |
+| KGAT      | KGAT: knowledge graph attention network for recommendation | KDD | 2019 | [link](https://doi.org/10.1145/3292500.3330989) |
+| IntentGC  | IntentGC: a scalable graph convolution framework fusing heterogeneous information for recommendation | KDD | 2019 | [link](https://doi.org/10.1145/3292500.3330686) |
+| AKGE     | Hierarchical attentive knowledge graph embedding for personalized recommendation | Electronic Commerce Research and Applications | 2021 | |
+| KPRN    | Explainable reasoning over knowledge graphs for recommendation | AAAI | 2019 | [link](https://doi.org/10.1609/aaai.v33i01.33015329) |
+
+### Visual Reasoning
+
+<div align="center">
+  <h3><strong>Visual Question Answering</strong></h3>
+</div>
+
+| Model | Title | Conference/Journal | Year | Paper |
+|:-----:|-------|:------------------:|:----:|:-----:|
+| FVQA  | FVQA: fact-based visual question answering | IEEE TPAMI | 2018   | [link](https://doi.org/10.1109/TPAMI.2017.2754246) |
+| Wang et al. | Explicit knowledge-based reasoning for visual question answering | IJCAI | 2017   | -   |
+| Graphhopper | Graphhopper: multi-hop scene graph reasoning for visual question answering | ISWC | 2021   | [link](https://doi.org/10.1007/978-3-030-88361-4_7) |
+| Hypergraph Transformer | Hypergraph transformer: weakly-supervised multi-hop reasoning for knowledge-based visual question answering | ACL | 2022   | [link](https://doi.org/10.18653/v1/2022.acl-long.29) |
+| CMRL | Cross-modality multiple relations learning for knowledge-based visual question answering | ACM TOMM | 2024   | [link](https://doi.org/10.1145/3618301) |
+| KRISP | KRISP: Integrating implicit and symbolic knowledge for open-domain knowledge-based VQA | CVPR | 2021   | [link](https://doi.org/10.1109/CVPR46437.2021.01389) |
+| LLM+(KBret+SGret) | Find the gap: knowledge base reasoning for visual question answering | arXiv | 2024  | [link](https://arxiv.org/abs/2404.10226) |
+
+<div align="center">
+  <h3><strong>Cross-Modal Retrieval</strong></h3>
+</div>
+
+| Model | Title | Conference/Journal | Year | Paper |
+|:-----:|-------|:------------------:|:----:|:-----:|
+| KCR | Knowledge-aware cross-modal text-image retrieval for remote sensing images | IEEE TGRS | 2022 | [link](https://ieeexplore.ieee.org/document/9999008) |
+| MMRG  | Multi-modal relational graph for cross-modal video moment retrieval | CVPR | 2021 | [link](https://doi.org/10.1109/CVPR46437.2021.00225) |
+| IRGR | Multiple instance relation graph reasoning for cross-modal hash retrieval | Knowledge-Based Systems | 2022 | [link](https://doi.org/10.1016/j.knosys.2022.109891) |
+
+
+<div align="center">
+  <h3><strong>Scene Graph Generation</strong></h3>
+</div>
+
+| Model | Title | Conference/Journal | Year | Paper |
+|:-----:|-------|:------------------:|:----:|:-----:|
+| GB-Net | Bridging knowledge graphs to generate scene graphs | ECCV | 2020 | [link](https://doi.org/10.1007/978-3-030-58592-1_36) |
+| HiKER-SGG | HiKER-SGG: Hierarchical knowledge enhanced robust scene graph generation | CVPR | 2024 | [link](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_HiKER-SGG_Hierarchical_Knowledge_Enhanced_Robust_Scene_Graph_Generation_CVPR_2024_paper.html) |
+| CGR | Configurable graph reasoning for visual relationship detection | TNNLS | 2022 | [link](https://doi.org/10.1109/TNNLS.2020.3027575) |
+| COACHER | Zero-shot scene graph relation prediction through commonsense knowledge integration | ECML PKDD | 2021 | [link](https://doi.org/10.1007/978-3-030-86520-7_29) |
