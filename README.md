@@ -193,6 +193,8 @@ The comprehensive overview framework of our survey is presented as following. Th
 | Relphormer | Relphormer: Relational graph transformer for knowledge graph representations | Neurocomputing | 2024 | [link](https://doi.org/10.1016/j.neucom.2023.127044) |
 | LGKGR | LGKGR: A knowledge graph reasoning model using LLMs augmented GNNs | Neurocomputing | 2025 | [Link](https://doi.org/10.1016/j.neucom.2025.129919) |
 
+[⬆️](#content)
+
 <div align="center"> <span id="ontology-based"></span>
   <h3><strong>Ontology-Enhanced KGE Models</strong></h3>
 </div>
@@ -234,6 +236,8 @@ The comprehensive overview framework of our survey is presented as following. Th
 | TAPR | Modeling relation paths for knowledge graph completion | IEEE TKDE | 2021 | [link](https://doi.org/10.1109/TKDE.2020.2970044) |
 | Niu et al. | Joint semantics and data-driven path representation for knowledge graph reasoning | Neurocomputing | 2022 | [link](https://doi.org/10.1016/j.neucom.2022.02.011) |
 
+[⬆️](#content)
+
 <div align="center"> <span id="ns"></span>
   <h3><strong>Negative Sampling for KGE</strong></h3>
 </div>
@@ -273,6 +277,8 @@ The comprehensive overview framework of our survey is presented as following. Th
 | MDNcaching | MDNcaching: A strategy to generate quality negatives for knowledge graph embedding | IEA/AIE | 2022 | [Link](https://doi.org/10.1007/978-3-031-08530-7_74) |
 | Op-Trans | Op-Trans: An optimization framework for negative sampling and triplet-mapping properties in knowledge graph embedding | Applied Sciences | 2023 | [Link](https://doi.org/10.3390/app13052817) |
 | NS-KGE | Efficient non-sampling knowledge graph embedding | The Web Conference | 2021 | [Link](https://doi.org/10.1145/3442381.3449859) |
+
+[⬆️](#content)
 
 <div align="center"> <span id="library"></span>
   <h3><strong>Open-Source Library for KGE</strong></h3>
@@ -392,10 +398,10 @@ The comprehensive overview framework of our survey is presented as following. Th
 <details>
    <summary> Taxonomy of static multi-step KGR approaches </summary>
    
-[⬆️](#content)
-
 ![Multi-step KGR](./figures/multi-step.jpg)
 </details>
+
+[⬆️](#content)
 
 ## Dynamic KGR <span id="dynamic-kgr"></span>
 
@@ -594,6 +600,8 @@ The comprehensive overview framework of our survey is presented as following. Th
 | P-INT | P-INT: a path-based interaction model for few-shot knowledge graph completion | EMNLP Findings | 2021 | [link](https://doi.org/10.18653/v1/2021.findings-emnlp.35) |
 | EPIRL | Enhancing path information with reinforcement learning for few-shot knowledge graph completion | ICPADS | 2023 | [link](https://doi.org/10.1109/ICPADS60453.2023.00225) |
 
+[⬆️](#content)
+
 ### Multi-Step Few-Shot KGR Model <span id="multi-step-fskgr"></span>
 
 | Model  | Title | Conference/Journal | Year | Paper |
@@ -668,6 +676,8 @@ The comprehensive overview framework of our survey is presented as following. Th
 | SLAN | SLAN: similarity-aware aggregation network for embedding out-of-knowledge-graph entities | Neurocomputing | 2022 | [link](https://doi.org/10.1016/j.neucom.2022.03.063) |
 | ARP | Attention-based relation prediction of knowledge graph by incorporating graph and context features | WISE | 2022 | [link](https://doi.org/10.1007/978-3-031-20891-1_19) |
 | TransNS | Open knowledge graph representation learning based on neighbors and semantic affinity | Journal of Computer Research and Development | 2019 | [link](https://doi.org/10.7544/issn1000-1239.2019.20190648) |
+
+[⬆️](#content)
 
 ### Multimodal-Enhanced Model <span id="mm-ikgr"></span>
 
