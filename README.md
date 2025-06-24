@@ -6,7 +6,7 @@
 
 A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and Prospects [Paper](https://arxiv.org/pdf/2506.11012)
 
->**🚀Main contribution of this survey**: This survey provides a more comprehensive perspective on the research of KGR by categorizing approaches based on primary reasoning tasks, downstream application tasks, and potential challenging reasoning tasks. Besides, we explore advanced techniques, such as large language models (LLMs), and their impact on KGR. This work aims to highlight key research trends and outline promising future directions in the field of KGR.
+>**🚀Main contribution of this survey**: This survey provides a more comprehensive perspective on the research of KGR by categorizing approaches based on **primary reasoning** tasks, **downstream application** tasks, and **potential challenging reasoning** tasks. Besides, we explore advanced techniques, such as large language models (LLMs), and their impact on KGR. This work aims to highlight key research trends and outline promising future directions in the field of KGR.
 
 >**🙌Key characteristics of this repository**: Unlike other outstanding review repositories of the knowledge graph reasoning field, we not only provide a comprehensive review but also strive to offer the official publication abstract page for each paper. This includes not only the **official publication version of the paper** but also additional resources such as **author information**, **videos**, **datasets**, **supplementary materials**, and **BibTeX citations**.
 
@@ -28,6 +28,13 @@ The comprehensive overview framework of our survey is presented as following. Th
    <summary> The illustration of the six primary KGR tasks </summary>
    
 ![Illustration of primary KGR tasks](./figures/KGR.jpg)
+</details>
+
+<details>
+   <summary> 🔥 News </summary>
+   
+- **`2025-06` Our Paper [A Pluggable Common Sense-Enhanced Framework for Knowledge Graph Completion](https://arxiv.org/abs/2410.04488) is accepted to IEEE Transactions on Big Data.**
+- **`2025-01` Our Paper [Diffusion-based Hierarchical Negative Sampling for Multimodal Knowledge Graph Completion](https://arxiv.org/abs/2501.15393) (DHNS) is accepted to DASFAA 2025 Oral.**
 </details>
 
 ## Content
