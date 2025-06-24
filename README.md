@@ -37,7 +37,7 @@ The comprehensive overview framework of our survey is presented as following. Th
 - **`2025-01` Our Paper [Diffusion-based Hierarchical Negative Sampling for Multimodal Knowledge Graph Completion](https://arxiv.org/abs/2501.15393) (DHNS) is accepted to DASFAA 2025 Oral.**
 </details>
 
-## Content
+## Content <span id="content"></span>
 - [Survey Papers](#survey-papers)
 - [Static Single-Step KGR](#single-step-kgr)
 - - [KGE-based KGR Model](#kge)
@@ -115,6 +115,8 @@ The comprehensive overview framework of our survey is presented as following. Th
 | Beyond transduction: a survey on inductive, few shot, and zero shot link prediction in knowledge graphs | arXiv | 2023 | Few-shot & Inductive | [link](https://arxiv.org/abs/2312.04997)
 | A comprehensive overview of knowledge graph completion | Knowledge-Based System | 2022 | Multi-modal & Hyper-relation | [link](https://www.sciencedirect.com/science/article/abs/pii/S095070512200805X)
 | Knowledgegraph reasoning with logics and embeddings: survey and perspective | arXiv | 2022 | Logics and Embeddings | [link](https://arxiv.org/pdf/2202.07412)
+
+[⬆️](#content)
 
 ## Static Single-Step KGR <span id="single-step-kgr"></span>
 ### KGE-based KGR Model <span id="kge"></span>
@@ -292,6 +294,8 @@ The comprehensive overview framework of our survey is presented as following. Th
 | GraphVite | Pytorch | Provides efficient large-scale embedding learning, supports visualization of graph data, and enables multi-processing and GPU parallelization. | [https://github.com/DeepGraphLearning/graphvite](https://github.com/DeepGraphLearning/graphvite) |
 | PBG | Pytorch | Designed for distributed training, capable of handling KGs with billions of entities and trillions of edges. | [https://github.com/facebookresearch/PyTorch-BigGraph](https://github.com/facebookresearch/PyTorch-BigGraph) |
 
+[⬆️](#content)
+
 ### Logic Rule-based KGR Model <span id="rule-kgr"></span>
 
 <div align="center"> <span id="rule"></span>
@@ -338,6 +342,8 @@ The comprehensive overview framework of our survey is presented as following. Th
    
 ![Single-step KGR](./figures/single-step.jpg)
 </details>
+
+[⬆️](#content)
 
 ## Static Multi-Step KGR <span id="multi-step-kgr"></span>
 
@@ -386,6 +392,8 @@ The comprehensive overview framework of our survey is presented as following. Th
 <details>
    <summary> Taxonomy of static multi-step KGR approaches </summary>
    
+[⬆️](#content)
+
 ![Multi-step KGR](./figures/multi-step.jpg)
 </details>
 
@@ -415,6 +423,8 @@ The comprehensive overview framework of our survey is presented as following. Th
 | Navi | Dynamic knowledge graph embeddings via local embedding reconstructions | ESWC (Satellite) | 2022 | [link](https://doi.org/10.1007/978-3-031-11609-4_36) |
 | UOKE | Online updates of knowledge graph embedding | Complex Networks X | 2021 | [link](https://doi.org/10.1007/978-3-030-93413-2_44) |
 | KGCR | Temporal knowledge graph incremental construction model for recommendation | APWeb-WAIM | 2020 | [link](https://doi.org/10.1007/978-3-030-60259-8_26) |
+
+[⬆️](#content)
 
 ### Temporal KGR Model <span id="temporal-kgr"></span>
 
@@ -487,6 +497,8 @@ The comprehensive overview framework of our survey is presented as following. Th
 ![Dynamic KGR](./figures/dynamic.jpg)
 </details>
 
+[⬆️](#content)
+
 ## Multi-Modal KGR <span id="mm-kgr"></span>
 
 ### Multi-Modal Embedding-based Model <span id="mm-embedding"></span>
@@ -535,6 +547,8 @@ The comprehensive overview framework of our survey is presented as following. Th
    
 ![MM KGR](./figures/mmkgr.jpg)
 </details>
+
+[⬆️](#content)
 
 ## Few-Shot KGR <span id="fs-kgr"></span>
 
@@ -606,6 +620,8 @@ The comprehensive overview framework of our survey is presented as following. Th
    
 ![FSKGR](./figures/fskgr.jpg)
 </details>
+
+[⬆️](#content)
 
 ## Inductive KGR <span id="ind-kgr"></span>
 
@@ -682,6 +698,8 @@ The comprehensive overview framework of our survey is presented as following. Th
    
 ![IKGR](./figures/inductive.jpg)
 </details>
+
+[⬆️](#content)
 
 ## Benchmarks <span id="benckmarks"></span>
 
@@ -928,6 +946,8 @@ The comprehensive overview framework of our survey is presented as following. Th
 | DBPedia50k   | 24,624   | 351  | 32,388             | 6,459          | [link](10.1609/aaai.v32i1.11535) |
 | Wikidata5M   | 4,579,609| 822  | 20,496,514         | 6,894          | [link](10.1162/tacl_a_00360)     |
 
+[⬆️](#content)
+
 ## Applications <span id="app"></span>
 
 ### Question Answering <span id="qa"></span>
@@ -965,6 +985,8 @@ The comprehensive overview framework of our survey is presented as following. Th
 | Prog-TQA | Self-improvement programming for temporal knowledge graph question answering | LREC-COLING | 2024 | [link](https://aclanthology.org/2024.lrec-main.1270/) | 
 | GenTKGQA | Two-stage generative question answering on temporal knowledge graph using large language models | ACL Findings | 2024 | [link](https://doi.org/10.18653/v1/2024.findings-acl.500) |
 
+[⬆️](#content)
+
 ### Recommendation <span id="recom"></span>
 
 | Model | Title | Conference/Journal | Year | Paper |
@@ -988,6 +1010,8 @@ The comprehensive overview framework of our survey is presented as following. Th
 | IntentGC  | IntentGC: a scalable graph convolution framework fusing heterogeneous information for recommendation | KDD | 2019 | [link](https://doi.org/10.1145/3292500.3330686) |
 | AKGE     | Hierarchical attentive knowledge graph embedding for personalized recommendation | Electronic Commerce Research and Applications | 2021 | [link](https://www.sciencedirect.com/science/article/pii/S1567422321000430) |
 | KPRN    | Explainable reasoning over knowledge graphs for recommendation | AAAI | 2019 | [link](https://doi.org/10.1609/aaai.v33i01.33015329) |
+
+[⬆️](#content)
 
 ### Visual Reasoning <span id="vis-reason"></span>
 
@@ -1025,6 +1049,8 @@ The comprehensive overview framework of our survey is presented as following. Th
 | HiKER-SGG | HiKER-SGG: Hierarchical knowledge enhanced robust scene graph generation | CVPR | 2024 | [link](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_HiKER-SGG_Hierarchical_Knowledge_Enhanced_Robust_Scene_Graph_Generation_CVPR_2024_paper.html) |
 | CGR | Configurable graph reasoning for visual relationship detection | TNNLS | 2022 | [link](https://doi.org/10.1109/TNNLS.2020.3027575) |
 | COACHER | Zero-shot scene graph relation prediction through commonsense knowledge integration | ECML PKDD | 2021 | [link](https://doi.org/10.1007/978-3-030-86520-7_29) |
+
+[⬆️](#content)
 
 ### Healthcare Domain <span id="healthcare"></span>
 
@@ -1067,6 +1093,8 @@ The comprehensive overview framework of our survey is presented as following. Th
 | Gao et al. | Hierarchical knowledge graph learning enabled socioeconomic indicator prediction in location-based social network           | The Web Conference (WWW)              | 2023 | [link](https://doi.org/10.1145/3543507.3583239) |
 | Zeng et al. | Combining knowledge graph into metro passenger flow prediction: a split-attention relational graph convolutional network     | Expert Syst. Appl.                    | 2023 | [link](https://doi.org/10.1016/j.eswa.2022.118790) |
 | Liu et al. | Multi-source knowledge graph reasoning for ocean oil spill detection from satellite SAR images                              | Int. J. Appl. Earth Obs. Geoinf.      | 2023 | [link](https://doi.org/10.1016/j.jag.2022.103153) |
+
+[⬆️](#content)
 
 ## Challenge and Opportunity <span id="challenge"></span>
 
@@ -1128,3 +1156,5 @@ The comprehensive overview framework of our survey is presented as following. Th
 | Luo et al. | Chain of history: learning and forecasting with LLMs for temporal knowledge graph completion | arXiv | 2024 | [link](https://arxiv.org/abs/2401.06072) |
 | Nguyen et al. | Direct evaluation of chain-of-thought in multi-hop reasoning with knowledge graphs | Findings of ACL | 2024 | [link](https://doi.org/10.18653/v1/2024.findings-acl.168) |
 | GenTKG   | GenTKG: Generative Forecasting on Temporal Knowledge Graph with Large Language Models | Findings of NAACL | 2024 | [link](https://doi.org/10.18653/v1/2024.findings-naacl.268) |
+
+[⬆️](#content)
