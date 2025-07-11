@@ -12,12 +12,14 @@ A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and P
 
 If this repository is useful for you, please kindly cite the corresponding survey paper:
 ```
-@article{niu2025kgcsurvey,
-      title={A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and Prospects}, 
-      author={Guanglin Niu and Bo Li and Yangguang Lin},
-      year={2025},
-      journal={CoRR},
-      volume={abs/2506.11012}
+@misc{niu2025kgrsurvey,
+  author       = {Guanglin Niu and Bo Li and Yangguang Lin},
+  title        = {A Survey of Task‐Oriented Knowledge Graph Reasoning: Status, Applications, and Prospects},
+  year         = {2025},
+  eprint       = {arXiv:2506.11012},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.AI},
+  url          = {https://arxiv.org/abs/2506.11012}
 }
 ```
 
