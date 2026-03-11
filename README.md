@@ -26,15 +26,13 @@ If this repository is useful for you, please kindly cite the corresponding surve
 The comprehensive overview framework of our survey is presented as following. The same number (①-⑨) indicates that different approaches share similar ideas, and the keywords corresponding to each number are provided at the bottom of the figure.
 <img src="./figures/framework.jpg" title="Framework of This Survey">
 
-<details>
-   <summary> The illustration of the six primary KGR tasks </summary>
-   
+### The illustration of the six primary KGR tasks
 ![Illustration of primary KGR tasks](./figures/KGR.jpg)
-</details>
 
-<details>
-   <summary> 🔥 News </summary>
-   
+## 🔥 News
+- **`2026-02` Our Paper [Tokenization, Fusion and Decoupling: Bridging the Granularity Mismatch Between Large Language Models and Knowledge Graphs](https://arxiv.org/abs/2602.22698) is released on Arxiv.**
+- **`2026-02` Our Paper [A Comprehensive Survey of Knowledge Graph Reasoning: Approaches and Applications](https://ieeexplore.ieee.org/abstract/document/11415651) is accepted to IEEE Transactions on Big Data.** (This paper originates from this project and reviews related technologies from the perspectives of fundamental approaches and practical applications.)
+- **`2025-12` Our Paper A Comprehensive Review of Knowledge Graph Reasoning: From Simple Tasks to Complex Tasks is accepted to Journal of Software (in Chinese 软件学报).** (This paper originates from this project and reviews state-of-the-art models from the perspective of simple and complex reasoning tasks.)
 - **`2025-06` Our Paper [A Pluggable Common Sense-Enhanced Framework for Knowledge Graph Completion](https://arxiv.org/abs/2410.04488) is accepted to IEEE Transactions on Big Data.**
 - **`2025-01` Our Paper [Diffusion-based Hierarchical Negative Sampling for Multimodal Knowledge Graph Completion](https://arxiv.org/abs/2501.15393) (DHNS) is accepted to DASFAA 2025 Oral.**
 </details>
